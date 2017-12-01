@@ -1,1 +1,173 @@
-div.container-fluid{padding: 0px !important}
+div.container-fluid{
+  padding: 5em 0em;
+}
+
+div.container-fluid.header{background-color:#6379D5; color: #fff;}
+.header h1{font-weight: 700; margin-bottom: 1.75rem;}
+button.btn{border-radius: 0px; text-transform: upercase;}
+.header button.btn{margin-right: 2em;}
+
+h2 {
+  color: darkgrey;
+  margin-bottom: 1.5em;
+}
+
+.row.work{
+  background-color:#efefef;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+.container-fluid.work{background-color: #EDEDED}
+
+.work .row {
+  padding: 0em 1em;
+}
+
+h5.subtitle {
+  color: darkgrey;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2em 0em;
+}
+
+.lander {
+  background-color: #fff;
+  background-image: url(https://www.lander.com/skin/frontend/aloabani/home02_digital/images/lander-logo.svg);}
+
+.goalZero{background-color:#333; background-image: url('http://d14ivz84xz1srh.cloudfront.net/images/2013/logo.png')}
+
+.dakine{
+  background-color:#218666;
+  background-image: url('https://pull03-lpohbcpw0.netdna-ssl.com/skin/frontend/renegade/dakine2/images/dakine-logo.png');}
+
+.breville{background-color:#472b46;
+background-image:url('https://www.breville.com/content/dam/breville/target-logos/breville-desktop.png');
+}
+
+.jackWolfskin{
+  background-color:#000;;
+  background-image:url('https://www.jack-wolfskin.se/on/demandware.static/Sites-JackWolfskin_EU-Site/-/default/dwbcf98a43/jws/images/jw-logo-box-yb.svg');
+}
+
+.kammok{
+  background-color:#fff;
+  background-image:url('https://cdn.shopify.com/s/files/1/0345/4485/t/51/assets/logo-kammok.svg?6718558129564113229');
+}
+
+.sawyer {
+  background-image: url("https://sawyer.com/wp-content/themes/sawyer-2017-theme/svg/sawyer-logo.svg");
+  background-color:#00add3;
+}
+.smith {
+  background-image: url("https://www.smithoptics.com/medias/smithoptics-logo.png?context=bWFzdGVyfGltYWdlc3wzOTA3fGltYWdlL3BuZ3xpbWFnZXMvaGJmL2hiYi84OTE0ODQwOTExOTAyLnBuZ3w0YWI3NTY0NWZiZGIyNTY1ZTUxMzcyMWViMmNhYWUyNTEyODgxN2U5YWY2NGY4YmI5ZTkwMzU3ZWMwZDgwY2Ni");
+  background-color:#fff;
+}
+.toms {
+  background-image: url("http://www.toms.com/static/www/new/images/navigation/toms_logo.svg");
+  background-color:#fff;
+}
+.timbuk2 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/00/Timbuk2_Logo.jpg");
+  background-color:#fff;
+}
+.zeal {
+  background-image: url("https://www.zealoptics.com/_ui/addons/zealopticsaddon/desktop/common/images/brand-logo.svg");
+  background-color:#366;
+}
+.voodoo {
+  background-image: url("https://i5.walmartimages.com/asr/6be8874c-5d6f-49b0-8a13-4b3db1e389e8_1.3874707a1d6732743ad30bec49bbc046.png");
+  background-color:#000;
+}
+.coldSteel {
+  background-image: url("http://www.coldsteel.com/skin/frontend/smartwave/mango/images/cs_logo_white.png");
+  background-color:#000;
+}
+.greenPan {
+  background-image: url("https://www.greenpan.us/sites/all/themes/custom/greenpan15/logo.png");
+  background-color:#78a22f;
+}
+.identilock {
+  background-image: url("https://cdn.shopify.com/s/files/1/1859/6019/files/ID_logo_2fc0d9f8-9b2e-4abb-a88e-abbe8d5b1168_410x.png?v=1496220646");
+  background-color:#fff;
+}
+.sportDog {
+  background-image: url("http://d38xyh0kzo0v0a.cloudfront.net/media/images/logo.png");
+  background-color:#333;
+}
+
+
+
+.w-item div {
+    width: 100%;
+    min-height: 15vh;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center center;
+    transition-duration: 50ms;
+}
+
+
+.w-item {
+  border: 1px solid #333;
+  border-radius: 2em;
+  margin:1em 0.25em;
+  overflow:hidden;
+}
+
+
+
+/*footer*/
+.fileDownload:before{width:1em; height: 1em; position: absolute; display:block; background-image:url("file-download");}
+.footer{background-color:#D3D3D3}
+
+/*product-pages*/
+#productPage .container-fluid.header {
+padding: 0px;
+background-color:#333;
+}
+#productPage .container-fluid.header .logo {
+    height: 40vh;
+    display: block;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#productPage h1 {
+    text-transform: capitalize;
+    font-size: 7rem;
+}
+
+
+span.icon-x {
+    color: #fff !important;
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+    font-size: 3em;
+    line-height: 0;
+    opacity: 0.7;
+    transition-duration: 300ms;
+}
+
+span.icon-x:hover{
+  font-size:3em;
+  opacity: 1;
+  cursor:pointer;
+}
+#productPage ul{padding-left: 1.2em;}
+#productPage li{padding-bottom: .5em;}
+
+#productPage .col-0.col-sm-0.col-md-6.project-preview {
+    min-height: 75vh;
+}
+#productPage .project-copy{
+  align-self: center;
+}
+
+.modal-xl {
+    max-width: 85%;
+    margin: 5% auto;
+}
+.margin-0{
+  margin:0px !important;
+}

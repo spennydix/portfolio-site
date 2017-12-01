@@ -1,0 +1,225 @@
+{
+	"project": [{
+		"lander": {
+			"name": "lander",
+			"type": "product",
+			"length": "5",
+
+			"description": "<p>Lander was releasing its first REI exclusive product, the Cairn, and we spoke to a designer to get the scoop on some of its most interesting features. In this experience, you'll find more information about this game-changing lantern, as well as:</p><ul><li>An introduction to the Lander product ecosystem</li><li>A deeper dive into key Lander technologies, including Thermoline</li><li>Insights from the brand about how these products were created, named, and tested</li></ul>",
+
+			"logo": "http://cdn.experticity.com/contrib/mfg/lander/contrib/images/MODULE-13704-lander-logo-iso.png",
+			"header": "https://cdn.experticity.com/contrib/mfg/lander/contrib/images/MODULE-13704-cairn-breaker-2.jpg",
+			"preview": "../images/lander-lockup.png",
+			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13704#page/1",
+			"similarTo": {
+				"breville": "breville",
+				"jackWolfskin": "jackWolfskin",
+				"sawyer": "sawyer",
+				"dakine": "dakine"
+			}
+		},
+
+		"breville": {
+			"name": "breville",
+			"type": "brand/product",
+			"length": "8",
+			"description": "<p>Breville’s Oracle® Touch makes premium, automatic, café-quality espresso. In these new modules, we take a deep dive on Breville’s “super-automatic” espresso machine alongside Breville’s coffee master Alejandra Lin. Better yet, we even threw a coffee social hosted by Alejandra and Experticity to test out the Oracle® Touch to coffee fanatics. What happens? You’re going to have to take the lessons to find out.</p>",
+			"logo": "https://cdn.experticity.com/contrib/mfg/breville/contrib/images/MODULE-13795-breville-logo.png",
+			"header": "https://cdn.experticity.com/contrib/mfg/breville/contrib/images/MODULE-13796-coffee-beans-bg-color.jpg",
+			"preview": "preview.jpg"
+		},
+
+		"dakine": {
+			"name": "dakine",
+			"type": "product",
+			"length": "5",
+			"description": "",
+			"logo": "https://pull03-lpohbcpw0.netdna-ssl.com/skin/frontend/renegade/dakine2/images/dakine-logo.png",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"goalZero": {
+			"name": "goalZero",
+			"type": "product",
+			"length": "5",
+			"description": "",
+			"logo": "http://d14ivz84xz1srh.cloudfront.net/images/2013/logo.png",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"jackWolfskin": {
+			"name": "jackWolfskin",
+			"type": "brand/product",
+			"length": "3",
+			"description": "",
+			"logo": "https://www.jack-wolfskin.se/on/demandware.static/Sites-JackWolfskin_EU-Site/-/default/dwbcf98a43/jws/images/jw-logo-box-yb.svg",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"kammok": {
+			"name": "kammok",
+			"type": "brand/product",
+			"length": "5",
+			"description": "",
+			"logo": "https://cdn.shopify.com/s/files/1/0345/4485/t/51/assets/logo-kammok.svg?10007110428572248733",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"sawyer": {
+			"name": "sawyer",
+			"type": "product",
+			"length": "2",
+			"description": "",
+			"logo": "https://sawyer.com/wp-content/themes/sawyer-2017-theme/svg/sawyer-logo.svg",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"smith": {
+			"name": "smith",
+			"type": "brand/product/tech",
+			"length": "15",
+			"description": "",
+			"logo": "https://www.smithoptics.com/medias/smithoptics-logo.png?context=bWFzdGVyfGltYWdlc3wzOTA3fGltYWdlL3BuZ3xpbWFnZXMvaGJmL2hiYi84OTE0ODQwOTExOTAyLnBuZ3w0YWI3NTY0NWZiZGIyNTY1ZTUxMzcyMWViMmNhYWUyNTEyODgxN2U5YWY2NGY4YmI5ZTkwMzU3ZWMwZDgwY2Ni",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"toms": {
+			"name": "toms",
+			"type": "brand/product",
+			"length": "30",
+			"description": "",
+			"logo": "http://www.toms.com/static/www/new/images/navigation/toms_logo.svg",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"timbuk2": {
+			"name": "timbuk2",
+			"type": "brand/product",
+			"length": "10",
+			"description": "",
+			"logo": "https://upload.wikimedia.org/wikipedia/commons/0/00/Timbuk2_Logo.jpg",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"zeal": {
+			"name": "zeal",
+			"type": "product/tech",
+			"length": "7",
+			"description": "",
+			"logo": "https://www.zealoptics.com/_ui/addons/zealopticsaddon/desktop/common/images/brand-logo.svg",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"voodoo": {
+			"name": "voodoo",
+			"type": "brand/product",
+			"length": "20",
+			"description": "",
+			"logo": "https://i5.walmartimages.com/asr/6be8874c-5d6f-49b0-8a13-4b3db1e389e8_1.3874707a1d6732743ad30bec49bbc046.png",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"coldSteel": {
+			"name": "coldSteel",
+			"type": "brand/product",
+			"length": "6",
+			"description": "",
+			"logo": "http://www.coldsteel.com/skin/frontend/smartwave/mango/images/cs_logo_white.png",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"greenPan": {
+			"name": "greenPan",
+			"type": "product/quiz",
+			"length": "6",
+			"description": "",
+			"logo": "https://www.greenpan.us/sites/all/themes/custom/greenpan15/logo.png",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"identilock": {
+			"name": "identilock",
+			"type": "brand/product",
+			"length": "7",
+			"description": "",
+			"logo": "https://cdn.shopify.com/s/files/1/1859/6019/files/ID_logo_2fc0d9f8-9b2e-4abb-a88e-abbe8d5b1168_410x.png?v=1496220646",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		},
+		"sportDog": {
+			"name": "sportDog",
+			"type": "20",
+			"length": "brand/product",
+			"description": "",
+			"logo": "http://d38xyh0kzo0v0a.cloudfront.net/media/images/logo.png",
+			"header": "",
+			"preview": "",
+			"liveLink": ""
+
+		}
+	}],
+	"personal": [{
+		"tophat": {
+			"name": "",
+			"type": "",
+			"length": "",
+			"description": "",
+			"logo": "",
+			"header": "",
+			"preview": ""
+		},
+		"portfolio": {
+			"name": "",
+			"type": "",
+			"length": "",
+			"description": "",
+			"logo": "",
+			"header": "",
+			"preview": ""
+		}
+	}],
+	"brandList": {
+		"lander": "lander",
+		"breville": "breville",
+		"dakine": "dakine",
+		"goalZero": "goalZero",
+		"jackWolfskin": "jackWolfskin",
+		"kammok": "kammok",
+		"sawyer": "sawyer",
+		"smith": "smith",
+		"toms": "toms",
+		"timbuk2": "timbuk2",
+		"zeal": "zeal",
+		"voodoo": "voodoo",
+		"coldSteel": "coldSteel",
+		"greenPan": "greenPan",
+		"identilock": "identilock",
+		"sportDog": "sportDog"
+	}
+}
