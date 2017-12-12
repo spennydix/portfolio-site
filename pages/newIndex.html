@@ -8,7 +8,28 @@
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="../css/style.css" rel="stylesheet" type="text/css">
-	<title></title>
+	<title>Spencer Dixon Designs</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="../images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link href="https://file.myfontastic.com/rZi4L26bMqWbwMSHaHsU4m/icons.css" rel="stylesheet">
+
+
 </head>
 <body>
 	<div class="container-fluid header">
@@ -23,20 +44,20 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-12 col-md-6">
-					<button class="btn btn-light" type="button">Work</button> <button class="btn btn-light" type="button">About</button>
+					<button class="btn btn-light" type="button" href="#work">Work</button> <button class="btn btn-light" type="button">About</button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="container-fluid">
 		<div class="container skills">
-			<div class="row margin-0">
+			<div class="row">
 				<div class="col-xs-12 col-md-6">
 					<h2>a quantitative look</h2>
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row margin-0">
 			<div class="col-sm-6 col-md-4">
 				<canvas height="200" id="technicalAbility" width="300"></canvas>
 				<h5 class="subtitle">Technical ability</h5>
@@ -52,7 +73,7 @@
 			<div class="tooltip-placeholder" id="tooltip"></div>
 		</div>
 	</div>
-	<div class="container-fluid work">
+	<div class="container-fluid work" name="work" id="work">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-6">
@@ -149,7 +170,7 @@
 				<div class="modal-content">
 					<div id="productPage">
 						<div class="container-fluid header">
-							<span class="icon-x"></span>
+							<span class="icon-x close" data-dismiss="modal" aria-label="Close"></span>
 							<div class="logo"></div>
 						</div>
 						<div class="container-fluid content">
@@ -157,6 +178,7 @@
 								<div class="row">
 									<div class="col-0 col-sm-0 col-md-6 project-preview">
 										<div class="preview-image"></div>
+										<div class="content-image" style="background-image: url('../images/lander-preview-image.jpeg')"></div>
 									</div>
 									<div class="col-12 col-sm-8 col-md-6 project-copy">
 										<div class="project-title"></div>
@@ -196,13 +218,11 @@
                      $('.logo').css({
                          "background-image": "url('" + value[selectedBrand].logo + "')"
                      });
-                     $('.preview-image').css({
-                         "background-image": "url('" + value[selectedBrand].preview + "')",
-                         "background-size": "cover",
-                         "height": "100%"
+                     $('.content-image').css({
+                         "background-image": "url('" + value[selectedBrand].preview + "')"
                      });
-                     $('.project-title').append("<h1>" + value[selectedBrand].name + "<\/h1>");
-                     $('.project-description').append("<p>" + value[selectedBrand].description + "<\/p>");
+                     $('.project-title').append("<h1>" + value[selectedBrand].name + "</h1>");
+                     $('.project-description').append("<p>" + value[selectedBrand].description + "</p>");
                      $('.previewBtn').attr("href", value[selectedBrand].liveLink);
                      $('.w-item.similarProj1').addClass(value[selectedBrand].similar1)
                      $('.w-item.similarProj2').addClass(value[selectedBrand].similar2)

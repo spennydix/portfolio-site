@@ -117,7 +117,22 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
 
 
 /*footer*/
-.fileDownload:before{width:1em; height: 1em; position: absolute; display:block; background-image:url("file-download");}
+a.fileDownload:before {
+    font-family: "untitled-font-6" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\38";
+    display: inline-block;
+}
+a.fileDownload {color: #6379d5;}
+
+
 .footer{background-color:#D3D3D3}
 
 /*product-pages*/
@@ -162,6 +177,29 @@ span.icon-x:hover{
 }
 #productPage .project-copy{
   align-self: center;
+}
+
+#productPage .preview-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    width: calc(100% - 30px);
+    background-image: url(../images/iphone-frame.png);
+}
+
+#productPage .content-image {
+    height: 91%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    width: calc(100% - 30px);
+    top: 20px;
 }
 
 .modal-xl {
