@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,400,500,700');
+
+
 div.container-fluid{
   padding: 5em 0em;
 }
@@ -149,7 +153,7 @@ background-color:#333;
 }
 #productPage h1 {
     text-transform: capitalize;
-    font-size: 7rem;
+    font-size: 5rem;
 }
 
 
@@ -199,7 +203,7 @@ span.icon-x:hover{
     position: absolute;
     width: 100%;
     width: calc(100% - 30px);
-    top: 20px;
+    top: 1em;
 }
 
 .modal-xl {
@@ -208,4 +212,16 @@ span.icon-x:hover{
 }
 .margin-0{
   margin:0px !important;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Roboto Mono";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
 }
