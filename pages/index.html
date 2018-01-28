@@ -1,135 +1,297 @@
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="A portfolio website for Spencer Dixon">
-    <meta name="keywords" content="Design portfolio, web design">
-    <meta name="author" content="Spencer Dixon">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../css/style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div class="container-fluid header">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-10">
-            <div class="header-content">
-              <h1 class="display-3">Spencer Dixon</h1>
-              <p class="lead">I am a web designer who codes. This is a website hilighting the work I consider to be the most representational of my overall worth as a potential employee.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <button type="button" class="btn btn-light">Work</button>
-            <button type="button" class="btn btn-light">About</button>
-          </div>
-        </div>
-      </div>
-    </div>
+<head>
+	<meta charset="UTF-8">
+	<meta content="A portfolio website for Spencer Dixon" name="description">
+	<meta content="Design portfolio, web design" name="keywords">
+	<meta content="Spencer Dixon" name="author">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	<title>Spencer Dixon Designs</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="../images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 
-    <div class="container-fluid">
-      <div class="container skills">
-        <div class="row">
-          <div class="col-xs-12 col-md-6"><h2>a quantitative look</h2>
-
-          </div>
-        </div>
-      </div>
-      <div class="row">
+	<link href="https://file.myfontastic.com/rZi4L26bMqWbwMSHaHsU4m/icons.css" rel="stylesheet">
 
 
-        <div class="col-sm-6 col-md-4">
-          <canvas id="technicalAbility" width="300" height="200"></canvas>
+</head>
+<body>
+	<div class="container-fluid header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-10">
+					<div class="header-content">
+						<h1 class="display-3">Spencer Dixon</h1>
+						<p class="lead">I am a web designer who codes. This is a website hilighting the work I consider to be the most representational of my overall worth as a potential employee.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6">
+					<button class="btn btn-light" type="button" href="#work">Work</button> <button class="btn btn-light" type="button">About</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="container skills">
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<h2>a quantitative look</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row margin-0">
+			<div class="col-sm-6 col-md-4">
+				<canvas height="200" id="technicalAbility" width="300"></canvas>
+				<h5 class="subtitle">Technical ability</h5>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<canvas height="200" id="interpersonalSkills" width="300"></canvas>
+				<h5 class="subtitle">Interpersonal Skills</h5>
+			</div>
+			<div class="col-sm-6 offset-sm-3 col-md-4 offset-md-0">
+				<canvas height="200" id="physicalProwess" width="300"></canvas>
+				<h5 class="subtitle">Physical Prowess</h5>
+			</div>
+			<div class="tooltip-placeholder" id="tooltip"></div>
+		</div>
+	</div>
+	<div class="container-fluid work" name="work" id="work">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<h2>a qualitative look</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="lander"></div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="breville"></div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="dakine"></div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="goalZero"></div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="jackWolfskin"></div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="kammok"></div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="sawyer"></div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="smith"></div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="toms"></div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="timbuk2"></div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="zeal"></div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+						<div class="sportDog"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-8">
+						<div class="row">
+							<h5 class="subtitle">THANKS FOR LOOKING</h5>
+						</div>
+						<div class="row">
+							<a class="fileDownload" href="../files/resume-web.pdf" target="_blank">Resume</a>
+						</div>
+						<div class="row">
+							<a class="fileDownload" href="../files/coverLetter.pdf" target="_blank">Cover Letter</a>
+						</div>
+					</div>
+					<div class="col-12 col-sm-4">
+						[insert form]
+					</div>
+				</div>
+			</div>
+		</div><!-- Large modal -->
+		<div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade bd-example-modal-xl" role="dialog" tabindex="-1">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+					<div id="productPage">
+						<div class="container-fluid header">
+							<span class="icon-x close" data-dismiss="modal" aria-label="Close"></span>
+							<div class="logo"></div>
+						</div>
+						<div class="container-fluid content">
+							<div class="container">
+								<div class="row">
+									<div class="col-0 col-sm-0 col-md-6 project-preview">
+										<div class="preview-image"></div>
+										<div class="content-image" style="background-image: url('../images/clients/lander/lander-preview-image.jpeg')"></div>
+									</div>
+									<div class="col-12 col-sm-8 col-md-5 project-copy">
+										<div class="project-title"></div>
+										<div class="project-description"></div><a class="col-10 offset-1 offset-sm-0 col-sm-6 previewBtn btn btn-outline-danger btn-lg" target="_blank">View Site</a>
+									</div>
+								</div>
+							</div>
+						</div>
 
-          <h5 class="subtitle">Technical ability</h5>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <canvas id="interpersonalSkills" width="300" height="200"></canvas>
-                  <h5 class="subtitle">Interpersonal Skills</h5>
-        </div>
-        <div class="col-sm-6 offset-sm-3 col-md-4 offset-md-0">
-          <canvas id="physicalProwess" width="300" height="200"></canvas>
-                    <h5 class="subtitle">Physical Prowess</h5>
-          </div>
+						<div class="container-fluid stats">
+							<div class="container">
+								<div class="row">
+									<div class="col-12 col-sm-8 col-md-5 project-copy">
+										<div class="project-subtitle stats"><h2>Stats:</h2></div>
+										<div class="project-bullets">
+											<ul>
+												<li class="bullet goal"><b>Goal:</b><span>XXX</span></li>
+												<li class="bullet scope"><b>Scope:</b><span>XXX</span></li>
+												<li class="bullet stakeholder"><b>Stakeholder:</b><span>XXX</span></li>
+												<li class="bullet duration"><b>Duration:</b><span>XXX</span></li>
+												<li class="bullet writer"><b>Writer:</b><span>XXX</span></li>
+												<li class="bullet contract-value"><b>Contract Value:</b><span>XXX</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
 
-        <div id="tooltip" class="tooltip-placeholder"></div>
-
-      </div>
-    </div>
-
-    <div class="container-fluid work">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-6"><h2>a qualitative look</h2>
-          </div>
-        </div>
-
-
-        <div class="row">
-
-          <div class="col-6 col-sm-4 col-md-3 ">
-            <div class="w-item lander" data-toggle="modal" data-target=".bd-example-modal-lg"></div>
-          </div>
-
-          <div class="col-6 col-sm-4 col-md-3 "><div class="w-item breville"></div></div>
-          <div class="col-6 col-sm-4 col-md-3 "><div class="w-item dakine"></div></div>
-          <div class="col-6 col-sm-4 col-md-3 "><div class="w-item goalZero"></div></div>
-          <div class="col-6 col-sm-4 col-md-3 "><div class="w-item jackWolfskin"></div></div>
-          <div class="col-6 col-sm-4 col-md-3 "><div class="w-item kammok"></div></div>
-          <div class="col-6 col-sm-4 col-md-3 "><div class="w-item sawyer"></div></div>
-          <div class="col-6 col-sm-4 col-md-3 "><div class="w-item smith"></div></div>
-          <div class="col-6 col-sm-4 col-md-3 "><div class="w-item toms"></div></div>
-          <div class="col-6 col-sm-4 col-md-3 "><div class="w-item timbuk2"></div></div>
-          <div class="col-6 col-sm-4 col-md-3 "><div class="w-item zeal"></div></div>
-          <div class="col-6 col-sm-4 col-md-3 "><div class="w-item sportDog"></div></div>
-        </div>
-      </div>
+						<div class="container-fluid results">
+							<div class="container">
+								<div class="row">
+									<div class="col-12 col-sm-8 col-md-5 project-results graphs">
+										<div class="project-subtitle stats"><h2>Results:</h2></div>
+										[pipe in graphs - engagement, survey responses, order $]
+									</div>
+								</div>
+							</div>
+						</div>
 
 
+						<div class="container-fluid footer">
+							<div class="container">
+								<h2>more work</h2>
+								<div class="row similarProjects"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" type="text/javascript"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.js" type="text/javascript"></script>
+	<script src="../js/muscle.js" type="text/javascript"></script>
+  <script type="text/javascript">
 
-      <div class="footer">
-        <div class="container-fluid">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-sm-8">
-                  <div class="row">
-                    <h5 class="subtitle">THANKS FOR LOOKING</h5>
-                  </div>
-                  <div class="row">
-                    <a class="fileDownload" href="../files/resume-web.pdf" download target="_blank">Resume</a>
-                  </div>
-                  <div class="row">
-                    <a class="fileDownload" href="../files/coverLetter.pdf" download target="_blank">Cover Letter</a>
-                  </div>
-              </div>
-              <div class="col-12 col-sm-4">
-                [insert form]
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+$('.w-item').click(function(){
+var userChoice = $(this).children().attr('class');
+console.log(userChoice);
 
-      <!-- Large modal -->
-      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            [Page content]
-          </div>
-        </div>
-      </div>
-    </div>
+	   $.getJSON('../data/projects.json', function(data) {
+	     //either bind this change to a button press / modal launch or make each of these separate pages and substitute json files.
+			 var selectedBrand = userChoice
+	     $(data.project).each(function(index, value) {
+	         if (value[selectedBrand].name == selectedBrand) {
+	             $('#productPage .header').css({
+	                 "background-image": "url('" + value[selectedBrand].header + "')",
+	                 "background-size": "cover"
+	             });
+	             $('.logo').css({
+	                 "background-image": "url('" + value[selectedBrand].logo + "')"
+	             });
+	             $('.content-image').css({
+	                 "background-image": "url('" + value[selectedBrand].preview + "')"
+	             });
+	             $('.project-title').html("<h1>" + value[selectedBrand].name + "</h1>");
+	             $('.project-description').html("<p>" + value[selectedBrand].description + "</p>");
+	             $('.previewBtn').attr("href", value[selectedBrand].liveLink);
+	             $('.w-item.similarProj1').addClass(value[selectedBrand].similar1)
+	             $('.w-item.similarProj2').addClass(value[selectedBrand].similar2)
+	             $('.w-item.similarProj3').addClass(value[selectedBrand].similar3)
+	             $('.w-item.similarProj4').addClass(value[selectedBrand].similar4)
+	         } else {
+	             alert('Loading project details failed. Sorry!');
+	         }
+	     });
+	     // needs to be replaced with more sophisticated function that randomly selects 4 values, and saves them to 4 variables.
+	     $(data.brandList).each(function(index, value) {
+	         var projectList = Object.values(data.brandList);
+	         similarProject1 = projectList[Math.floor(Math.random() * projectList.length)];
+	         similarProject2 = projectList[Math.floor(Math.random() * projectList.length)];
+	         similarProject3 = projectList[Math.floor(Math.random() * projectList.length)];
+	         similarProject4 = projectList[Math.floor(Math.random() * projectList.length)];
+	         $('.similarProjects').html('<div class="col-6 col-sm-3"><div class="w-item"><div class="' + similarProject1 + '"><\/div><\/div><\/div>');
+	         if (similarProject2 != similarProject1) {
+	             $('.similarProjects').html('<div class="col-6 col-sm-3"><div class="w-item"><div class="' + similarProject2 + '"><\/div><\/div><\/div>');
+	         } else if (similarProject3 != similarProject1 && similarProject3 != similarProject2) {
+	             $('.similarProjects').html('<div class="col-6 col-sm-3"><div class="w-item"><div class="' + similarProject3 + '"><\/div><\/div><\/div>');
+	         } else if (similarProject4 != similarProject1 && similarProject4 != similarProject2 && similarProject4 != similarProject3) {
+	             $('.similarProjects').html('<div class="col-6 col-sm-3"><div class="w-item"><div class="' + similarProject4 + '"><\/div><\/div><\/div>');
+	         } else {}
+	         // console.log(brandName);
+	         console.log("Project List:" + projectList);
+	         console.log(similarProject1 + " " + similarProject2 + " " + similarProject3 + " " + similarProject4);
+	     });
+	   });
+	 });
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.js"></script>
-<script type="text/javascript" src="../js/muscle.js"></script>
 
+</script>
 </body>
-
 </html>
