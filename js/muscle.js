@@ -85,7 +85,7 @@ window.chart = new Chart(document.getElementById("technicalAbility"), {
         labels: ["JS", "HTML/CSS", "Sketch/Origami", "Adobe CC", "CMS", "PHP"],
         datasets: [{
             label: "Technical Ability",
-            data: [60, 90, 70, 83, 50, 25],
+            data: [65, 90, 70, 85, 75, 20],
             fill: true,
             backgroundColor: gradientRed,
             borderColor: 'transparent',
@@ -148,7 +148,7 @@ window.chart = new Chart(document.getElementById("physicalProwess"), {
         labels: ["Height", "Weight", "Ping Pong", "Joint Strength", "Soccer", "Sleep Debt"],
         datasets: [{
             label: "Physical Prowess",
-            data: [70, 60, 90, 40, 75, 82],
+            data: [70, 65, 90, 40, 75, 82],
             fill: true,
             backgroundColor: gradientGreen,
             borderColor: 'transparent',
