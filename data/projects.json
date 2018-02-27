@@ -39,14 +39,27 @@
 		},
 		"goalZero": {
 			"name": "goalZero",
-			"type": "product",
-			"length": "5",
+			"type": "brand/product",
+			"length": "",
 			"writer": "Jenna Anderson",
 			"description": "<p>Goal Zero began in 2007 with Robert Workman teaching villagers how to run a sustainable business in their communities and empowering them to lift themselves out of poverty. Today Goal Zero strives to put reliable power in the hands of every human on earth.</p><p>We created a series of digital experiences to educate our audience about products, new and old– to help them better fit customer need with their recommendations.</p>",
 			"logo": "http://d14ivz84xz1srh.cloudfront.net/images/2013/logo.png",
 			"header": "",
 			"preview": "../images/clients/goalZero/goalZero-preview-image.jpg",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13605#page/1"
+
+		},
+		"hillsPet": {
+			"name": "hillsPet",
+			"type": "product",
+			"length": "65",
+			"writer": "Alex Nygaard",
+			"description": "<p>XXX</p>",
+			"logo": "XXX",
+			"header": "XXX",
+			"preview": "../images/clients/hillsPet/hillsPet-preview-image.jpg",
+			"budget": "$XXX",
+			"liveLink": "XXX"
 
 		},
 		"jackWolfskin": {
@@ -71,6 +84,19 @@
 			"header": "",
 			"preview": "../images/clients/kammok/kammok-preview-image.jpg",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13443#page/1"
+
+		},
+		"oakley": {
+			"name": "oakley",
+			"type": "brand/product",
+			"length": "45",
+			"writer": "Jenna Anderson, Sam Flickinger",
+			"description": "<p>XXX</p>",
+			"logo": "XXX",
+			"header": "XXX",
+			"preview": "../images/clients/oakley/oakley-preview-image.jpg",
+			"budget": "$XXX",
+			"liveLink": "XXX"
 
 		},
 		"sawyer": {
@@ -231,6 +257,8 @@
 		"coldSteel": "coldSteel",
 		"greenPan": "greenPan",
 		"identilock": "identilock",
-		"sportDog": "sportDog"
+		"sportDog": "sportDog",
+		"hillsPet": "hillsPet",
+		"oakley": "oakley"
 	}
 }
