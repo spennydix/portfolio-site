@@ -289,14 +289,13 @@ console.log(userChoice);
 	         similarProject4 = projectList[Math.floor(Math.random() * projectList.length)];
 	         $('.similarProjects').html('<div class="col-6 col-sm-3"><div class="w-item"><div class="' + similarProject1 + '"></div></div></div>');
 	         if (similarProject2 != similarProject1) {
-	             $('.similarProjects').html('<div class="col-6 col-sm-3"><div class="w-item"><div class="' + similarProject2 + '"></div></div></div>');
+	             $('.similarProjects').append('<div class="col-6 col-sm-3"><div class="w-item"><div class="' + similarProject2 + '"></div></div></div>');
 	         } else if (similarProject3 != similarProject1 && similarProject3 != similarProject2) {
-	             $('.similarProjects').html('<div class="col-6 col-sm-3"><div class="w-item"><div class="' + similarProject3 + '"></div></div></div>');
+	             $('.similarProjects').append('<div class="col-6 col-sm-3"><div class="w-item"><div class="' + similarProject3 + '"></div></div></div>');
 	         } else if (similarProject4 != similarProject1 && similarProject4 != similarProject2 && similarProject4 != similarProject3) {
-	             $('.similarProjects').html('<div class="col-6 col-sm-3"><div class="w-item"><div class="' + similarProject4 + '"></div></div></div>');
+	             $('.similarProjects').append('<div class="col-6 col-sm-3"><div class="w-item"><div class="' + similarProject4 + '"></div></div></div>');
 	         } else {}
-	         // console.log(brandName);
-	         console.log("Project List:" + projectList);
+	         console.log("Project List: " + projectList);
 	         console.log(similarProject1 + " " + similarProject2 + " " + similarProject3 + " " + similarProject4);
 	     });
 	   });
