@@ -6,8 +6,7 @@ div.container-fluid{
   padding: 5em 0em;
 }
 
-/*div.container-fluid.header{background-color:#6379D5; color: #fff;}*/
-div.container-fluid.header{background-color:red; color: #fff;}
+div.container-fluid.header{background-color:#6379D5; color: #fff;}
 .header h1{font-weight: 700; margin-bottom: 1.75rem;}
 button.btn{border-radius: 0px; text-transform: upercase;}
 .header button.btn{margin-right: 2em;}
