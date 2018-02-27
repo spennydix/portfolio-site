@@ -131,8 +131,9 @@ a.fileDownload:before {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    content: "\a";
+    content: "\61";
     display: inline-block;
+    padding: 0px 5px;
 }
 a.fileDownload {color: #6379d5;}
 
