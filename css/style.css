@@ -122,7 +122,7 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
 
 /*footer*/
 a.fileDownload:before {
-    font-family: "untitled-font-6" !important;
+    font-family: "untitled-font-8" !important;
     font-style: normal !important;
     font-weight: normal !important;
     font-variant: normal !important;
@@ -131,7 +131,7 @@ a.fileDownload:before {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    content: "\38";
+    content: "\a";
     display: inline-block;
 }
 a.fileDownload {color: #6379d5;}
