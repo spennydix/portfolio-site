@@ -1,4 +1,4 @@
-
+a
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,400,500,700');
 
 
@@ -33,6 +33,7 @@ h5.subtitle {
   text-align: center;
   margin: 0em 0em 2em;
 }
+.footer h5{color: darkgrey}
 
 .lander {
   background-color: #fff;
