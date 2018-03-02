@@ -227,7 +227,7 @@
 												<li class="bullet stakeholder"><b>Stakeholder:</b><span>XXX</span></li>
 												<li class="bullet duration"><b>Duration:</b><span>XXX</span></li>
 												<li class="bullet writer"><b>Writer:</b><span>XXX</span></li>
-												<li class="bullet contract-value"><b>Contract Value:</b><span>XXX</span></li>
+												<li class="bullet budget"><b>Budget:</b><span>XXX</span></li>
 											</ul>
 										</div>
 									</div>
@@ -287,6 +287,13 @@ console.log(userChoice);
 	             });
 	             $('.project-title').html("<h1>" + value[selectedBrand].name + "</h1>");
 	             $('.project-description').html("<p>" + value[selectedBrand].description + "</p>");
+               //bullets
+               $('.goal').html("<p>" + value[selectedBrand].goal + "</p>");
+               $('.scope').html("<p>" + value[selectedBrand].scope + "</p>");
+               $('.stakeholder').html("<p>" + value[selectedBrand].stakeholder + "</p>");
+               $('.duration').html("<p>" + value[selectedBrand].duration + "</p>");
+               $('.writer').html("<p>" + value[selectedBrand].writer + "</p>");
+               $('.budget').html("<p>" + value[selectedBrand].budget + "</p>");
 	             $('.previewBtn').attr("href", value[selectedBrand].liveLink);
 	             $('.w-item.similarProj1').addClass(value[selectedBrand].similar1);
 	             $('.w-item.similarProj2').addClass(value[selectedBrand].similar2);
