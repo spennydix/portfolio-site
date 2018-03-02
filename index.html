@@ -288,12 +288,12 @@ console.log(userChoice);
 	             $('.project-title').html("<h1>" + value[selectedBrand].name + "</h1>");
 	             $('.project-description').html("<p>" + value[selectedBrand].description + "</p>");
                //bullets
-               $('.goal > span').html("<p>" + value[selectedBrand].goal + "</p>");
-               $('.scope > span').html("<p>" + value[selectedBrand].scope + "</p>");
-               $('.stakeholder > span').html("<p>" + value[selectedBrand].stakeholder + "</p>");
-               $('.length > span').html("<p>" + value[selectedBrand].duration + "</p>");
-               $('.writer > span').html("<p>" + value[selectedBrand].writer + "</p>");
-               $('.budget > span').html("<p>" + value[selectedBrand].budget + "</p>");
+               $('.goal > span').html(" " + value[selectedBrand].goal);
+               $('.scope > span').html(" " + value[selectedBrand].scope);
+               $('.stakeholder > span').html(" " + value[selectedBrand].stakeholder);
+               $('.length > span').html(" " + value[selectedBrand].duration);
+               $('.writer > span').html(" " + value[selectedBrand].writer);
+               $('.budget > span').html(" " + value[selectedBrand].budget);
 	             $('.previewBtn').attr("href", value[selectedBrand].liveLink);
 	             $('.w-item.similarProj1').addClass(value[selectedBrand].similar1);
 	             $('.w-item.similarProj2').addClass(value[selectedBrand].similar2);
