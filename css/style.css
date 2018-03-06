@@ -103,7 +103,7 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
 
 .w-item div {
     width: 100%;
-    min-height: 15vh;
+    min-height: 15vw;
     background-repeat: no-repeat;
     background-size: 30%;
     background-position: center center;
