@@ -226,7 +226,7 @@ body {
     background-color: #fff;
 }
 .project-preview video{
-    width: 62%;
+    height: 91% !important;
     margin: 1.2em auto;
     display: block;
 }
