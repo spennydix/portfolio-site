@@ -208,8 +208,8 @@
 								<div class="row">
 									<div class="col-0 col-sm-4 col-md-6 project-preview embed-responsive">
 										<div class="preview-image"></div>
-                    <video controls autoplay poster="" class="embed-responsive-item" loop>
-                      <source src="../images/clients/lander/lander-recording.mp4" type="video/mp4" >
+                    <video  autoplay loop poster="" class="embed-responsive-item" >
+                      <source src="" type="video/mp4" >
                       Your browser does not support the video tag.
                     </video>
 										<!--<div class="content-image" style="background-image: url('../images/clients/lander/lander-preview-image.jpeg')"></div>-->
@@ -297,10 +297,10 @@ console.log(userChoice);
 	                 "background-image": "url('" + value[selectedBrand].logo + "')"
 	             });
 	             $('video').attr({
-	                 "poster": "url('" + value[selectedBrand].preview + "')"
+	                 "poster": value[selectedBrand].preview
 	             });
-               $('video').attr({
-	                 "src": "url('" + value[selectedBrand].video + "')"
+               $('source').attr({
+	                 "src": value[selectedBrand].video
 	             });
 
 	             $('.project-title').html("<h1>" + value[selectedBrand].name + "</h1>");
