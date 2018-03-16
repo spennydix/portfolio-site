@@ -96,62 +96,62 @@
 			</div>
 			<div class="row">
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="lander"></div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="breville"></div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="dakine"></div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="goalZero"></div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="jackWolfskin"></div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="kammok"></div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="sawyer"></div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="smith"></div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="toms"></div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="timbuk2"></div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="zeal"></div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-3">
-					<div class="w-item" data-target=".bd-example-modal-xl" data-toggle="modal">
+					<div class="w-item card" data-target=".bd-example-modal-xl" data-toggle="modal">
 						<div class="sportDog"></div>
 					</div>
 				</div>
@@ -206,9 +206,13 @@
 						<div class="container-fluid content">
 							<div class="container">
 								<div class="row">
-									<div class="col-0 col-sm-4 col-md-6 project-preview">
+									<div class="col-0 col-sm-4 col-md-6 project-preview embed-responsive">
 										<div class="preview-image"></div>
-										<div class="content-image" style="background-image: url('../images/clients/lander/lander-preview-image.jpeg')"></div>
+                    <video controls autoplay poster="" class="embed-responsive-item" loop>
+                      <source src="../images/clients/lander/lander-recording.mp4" type="video/mp4" >
+                      Your browser does not support the video tag.
+                    </video>
+										<!--<div class="content-image" style="background-image: url('../images/clients/lander/lander-preview-image.jpeg')"></div>-->
 									</div>
 									<div class="col-12 col-sm-8 col-md-5 project-copy">
 										<div class="project-title"></div>
@@ -292,9 +296,13 @@ console.log(userChoice);
 	             $('.logo').css({
 	                 "background-image": "url('" + value[selectedBrand].logo + "')"
 	             });
-	             $('.content-image').css({
-	                 "background-image": "url('" + value[selectedBrand].preview + "')"
+	             $('video').attr({
+	                 "poster": "url('" + value[selectedBrand].preview + "')"
 	             });
+               $('video').attr({
+	                 "src": "url('" + value[selectedBrand].video + "')"
+	             });
+
 	             $('.project-title').html("<h1>" + value[selectedBrand].name + "</h1>");
 	             $('.project-description').html("<p>" + value[selectedBrand].description + "</p>");
                //bullets

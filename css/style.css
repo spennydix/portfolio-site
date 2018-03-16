@@ -112,8 +112,6 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
 
 
 .w-item {
-  border: 1px solid #333;
-  border-radius: 2em;
   margin:1em 0.25em;
   overflow:hidden;
 }
@@ -151,6 +149,7 @@ background-color:#333;
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
+    background-size: 20em;
 }
 #productPage h1 {
     text-transform: capitalize;
@@ -177,7 +176,7 @@ span.icon-x:hover{
 #productPage ul{padding-left: 1.2em;}
 #productPage li{padding-bottom: .5em;}
 
-#productPage .col-0.col-sm-0.col-md-6.project-preview {
+#productPage .col-0.col-sm-4.col-md-6.project-preview{
     min-height: 75vh;
 }
 #productPage .project-copy{
@@ -191,7 +190,7 @@ span.icon-x:hover{
     height: 100%;
     z-index: 1;
     position: absolute;
-    width: calc(100% - 30px);
+    width: 100%;
     background-image: url(../images/iphone-frame.png);
 }
 
@@ -225,4 +224,9 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
+}
+.project-preview video{
+    width: 62%;
+    margin: 1.2em auto;
+    display: block;
 }
