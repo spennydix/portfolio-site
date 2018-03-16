@@ -194,7 +194,8 @@
 					</div>
 				</div>
 			</div>
-		</div><!-- Large modal -->
+		</div>
+    <!-- Large modal -->
 		<div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade bd-example-modal-xl" role="dialog" tabindex="-1">
 			<div class="modal-dialog modal-xl">
 				<div class="modal-content">
@@ -208,8 +209,8 @@
 								<div class="row">
 									<div class="col-0 col-sm-4 col-md-6 project-preview embed-responsive">
 										<div class="preview-image"></div>
-                    <video autoplay loop poster="" preload="metadata" class="embed-responsive-item" >
-                      <source src="../images/clients/lander/lander-recording.mp4" type="video/mp4" />
+                    <video autoplay loop preload="metadata" class="embed-responsive-item" >
+                      <!-- <source src"" type="video/mp4"/> -->
                       Your browser does not support the video tag.
                     </video>
 										<!--<div class="content-image" style="background-image: url('../images/clients/lander/lander-preview-image.jpeg')"></div>-->
@@ -285,7 +286,6 @@ var userChoice = $(this).children().attr('class');
 console.log(userChoice);
 
 	   $.getJSON('../data/projects.json', function(data) {
-	     //either bind this change to a button press / modal launch or make each of these separate pages and substitute json files.
 			 var selectedBrand = userChoice
 	     $(data.project).each(function(index, value) {
 	         if (value[selectedBrand].name == selectedBrand) {
@@ -296,18 +296,16 @@ console.log(userChoice);
 	             $('.logo').css({
 	                 "background-image": "url('" + value[selectedBrand].logo + "')"
 	             });
-	             $('video').attr({
-	                 "poster": value[selectedBrand].preview
-	             });
+
+	            //  $('video').attr({
+	            //      "poster": value[selectedBrand].preview,
+              //      "src": value[selectedBrand].video
+	            //  });
+
 
                $('video').html(
-                 '<source src="" type="video/mp4" />'
+                 "<source src=" + value[selectedBrand].video + " " + "type='video/mp4' />"
                );
-
-               $('source').attr({
-	                 "src": value[selectedBrand].video
-	             });
-console.log(selectedBrand);
 
 
 	             $('.project-title').html("<h1>" + value[selectedBrand].name + "</h1>");
