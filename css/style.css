@@ -225,8 +225,8 @@ body {
     text-align: left;
     background-color: #fff;
 }
-.project-preview video{
-    height: 91% !important;
-    margin: 1.2em auto;
+.project-preview video {
+    height: 67.9vh !important;
+    margin: 2.7vh auto;
     display: block;
 }
