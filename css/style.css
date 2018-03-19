@@ -112,11 +112,14 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
     width: 100%;
     min-height: 15vw;
     background-repeat: no-repeat;
-    background-size: 30%;
+    background-size: 40%;
     background-position: center center;
     transition-duration: 50ms;
 }
 
+#productPage .w-item div {
+    background-size: 50%;
+}
 
 .w-item {
   margin:1em 0.25em;
