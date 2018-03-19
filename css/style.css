@@ -98,7 +98,14 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
   background-image: url("http://d38xyh0kzo0v0a.cloudfront.net/media/images/logo.png");
   background-color:#333;
 }
-
+.oakley{
+  background-image: url("../images/clients/oakley/oakley-logo.png");
+  background-color:#252525;
+}
+.hills{
+  background-image: url("../images/clients/hills/hills-logo.png");
+  background-color:#fff;
+}
 
 
 .w-item div {
