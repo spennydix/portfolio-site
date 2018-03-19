@@ -107,6 +107,21 @@
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13443#page/1"
 
 		},
+		"nightforce": {
+			"name": "nightforce",
+			"type": "brand/product",
+			"length": "3",
+			"writer": "Coy Whittier",
+			"description": "XXX",
+			"logo": "../images/clients/nightforce/nightforce-banner.jpg",
+			"header": "../images/clients/nightforce/nightforce-header.jpg",
+			"preview": "../images/clients/nightforce/nightforce-preview-image.jpg",
+			"budget": "",
+			"scope": "",
+			"quote": "Overall I really like the design of the site, it's really digestible and above all else, just sexy! Really well done.",
+			"stakeholder": "Wayne Dayberry, Marketing Specialist",
+			"liveLink": "XXX"
+		},
 		"oakley": {
 			"name": "oakley",
 			"type": "brand/product",
