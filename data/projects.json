@@ -62,15 +62,15 @@
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13605#page/1"
 
 		},
-		"hillsPet": {
-			"name": "hillsPet",
+		"hills": {
+			"name": "hills",
 			"type": "product",
 			"length": "65",
 			"writer": "Alex Nygaard",
 			"description": "XXX",
 			"logo": "XXX",
 			"header": "XXX",
-			"preview": "../images/clients/hillsPet/hillsPet-preview-image.jpg",
+			"preview": "../images/clients/hills/hills-preview-image.jpg",
 			"budget": "",
 			"scope": "",
 			"stakeholder": "",
