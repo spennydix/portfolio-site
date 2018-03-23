@@ -106,7 +106,10 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
   background-image: url("../images/clients/hills/hills-logo.png");
   background-color:#fff;
 }
-
+.nightforce{
+  background-image: url("../images/clients/nightforce/nightforce-logo.png");
+  background-color:#000;
+}
 
 .w-item div {
     width: 100%;
