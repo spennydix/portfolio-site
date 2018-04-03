@@ -107,6 +107,21 @@
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13443#page/1"
 
 		},
+		"MDT": {
+			"name": "MDT",
+			"type": "brand/product",
+			"length": "5",
+			"writer": "Matthew Nanes",
+			"description": "Brand provided videos, we fit it in to a story arc and introduced their new product.",
+			"logo": "../images/clients/MDT/MDT-logo.png",
+			"header": "../images/clients/MDT/MDT-header.jpg",
+			"preview": "../images/clients/MDT/MDT-preview-image.jpg",
+			"budget": "11,800",
+			"scope": "",
+			"quote": "",
+			"stakeholder": "Bob Fugger, Marketing Driector",
+			"liveLink": "XXX"
+		},
 		"nightforce": {
 			"name": "nightforce",
 			"type": "brand/product",

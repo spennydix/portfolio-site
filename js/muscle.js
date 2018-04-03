@@ -172,6 +172,31 @@ window.chart = new Chart(document.getElementById("physicalProwess"), {
     },
     plugins: [shadowed]
 });
+
+window.chart = new Chart(document.getElementById("engagementData"), {
+		type: 'line',
+		data: {
+			labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+			datasets: [
+				{
+					label: "2018",
+					data: [10,8,6,5,12,8,16,17,6,7,6,10]
+				}
+			]
+		}
+    options: {
+    	backgroundColor: #a6a6a6,
+      borderColor: #666666,
+      // gridLines: {display: false},
+      // scale: {
+      //    ticks: {
+      //    		maxTicksLimit: 1,
+      //       display: false,
+      //    }
+      // }
+    },
+});
+
 var cards = $(".randomize");
 for(var i = 0; i < cards.length; i++){
     var target = Math.floor(Math.random() * cards.length -1) + 1;
