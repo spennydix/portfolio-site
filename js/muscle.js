@@ -180,21 +180,13 @@ window.chart = new Chart(document.getElementById("engagementData"), {
 			datasets: [
 				{
 					label: "2018",
-					data: [10,8,6,5,12,8,16,17,6,7,6,10]
+					data: [10,8,6,5,12,8,16,17,6,7,6,10],
+					strokeColor: "rgba(220,220,220,1)",
+					pointColor: "rgba(220,220,220,1)",
 				}
 			]
-		}
-    options: {
-    	backgroundColor: #a6a6a6,
-      borderColor: #666666,
-      // gridLines: {display: false},
-      // scale: {
-      //    ticks: {
-      //    		maxTicksLimit: 1,
-      //       display: false,
-      //    }
-      // }
-    },
+		},
+		plugins: [shadowed]
 });
 
 var cards = $(".randomize");

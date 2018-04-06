@@ -111,7 +111,7 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
   background-color:#000;
 }
 
-.w-item div {
+.e-item div, .p-item div {
     width: 100%;
     min-height: 15vw;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
     background-size: 50%;
 }
 
-.w-item {
+.e-item, .p-item {
   margin:1em 0.25em;
   overflow:hidden;
 }
@@ -242,4 +242,17 @@ body {
     height: 67.9vh !important;
     margin: 2.7vh auto;
     display: block;
+}
+
+.work .row[name=elements]:before{
+  content:"Elements:";
+  border-bottom: .75px solid;
+  width: 100%;
+  color:darkgrey
+}
+.work .row[name=projects]:before{
+  content:"Projects:";
+  border-bottom: .75px solid;
+  width: 100%;
+  color:darkgrey
 }
