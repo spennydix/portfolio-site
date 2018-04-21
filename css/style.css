@@ -5,13 +5,13 @@ div.container-fluid{
   padding: 5em 0em;
 }
 
-div.container-fluid.header{background-color:#6379D5; color: #fff;}
+div.container-fluid.header{background-color:#212121; color: #fff;}
 .header h1{font-weight: 700; margin-bottom: 1.75rem;}
 button.btn{border-radius: 0px; text-transform: upercase;}
 .header button.btn{margin-right: 2em;}
 
 h2 {
-  color: darkgrey;
+  color: #e0e0e0;
   margin-bottom: 1.5em;
 }
 
@@ -20,19 +20,19 @@ h2 {
   border-top: 1px solid #333;
   border-bottom: 1px solid #333;
 }
-.container-fluid.work{background-color: #EDEDED}
+.container-fluid.work{background-color: #f5f5f5}
 
 .work .row {
   padding: 0em 1em;
 }
 
 h5.subtitle {
-  color: darkgrey;
+  color: #e0e0e0;
   text-transform: uppercase;
   text-align: center;
   margin: 1em 0em 2em;
 }
-.footer h5{color: darkgrey}
+.footer h5{color: #e0e0e0}
 
 .lander {
   background-color: #fff;
@@ -248,11 +248,11 @@ body {
   content:"Elements:";
   border-bottom: .75px solid;
   width: 100%;
-  color:darkgrey
+  color:#e0e0e0
 }
 .work .row[name=projects]:before{
   content:"Projects:";
   border-bottom: .75px solid;
   width: 100%;
-  color:darkgrey
+  color:#e0e0e0
 }
