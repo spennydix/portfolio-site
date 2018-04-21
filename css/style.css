@@ -5,13 +5,17 @@ div.container-fluid{
   padding: 5em 0em;
 }
 
-div.container-fluid.header{background-color:#212121; color: #fff;}
+div.container-fluid.header{
+  background-color:#212121;
+  color: #fff;
+  padding-top: calc(5em + 50px);
+}
 .header h1{font-weight: 700; margin-bottom: 1.75rem;}
 button.btn{border-radius: 0px; text-transform: upercase;}
 .header button.btn{margin-right: 2em;}
 
 h2 {
-  color: #e0e0e0;
+  color: #757575;
   margin-bottom: 1.5em;
 }
 
@@ -27,12 +31,12 @@ h2 {
 }
 
 h5.subtitle {
-  color: #e0e0e0;
+  color: #757575;
   text-transform: uppercase;
   text-align: center;
   margin: 1em 0em 2em;
 }
-.footer h5{color: #e0e0e0}
+.footer h5{color: #757575}
 
 .lander {
   background-color: #fff;
@@ -248,11 +252,11 @@ body {
   content:"Elements:";
   border-bottom: .75px solid;
   width: 100%;
-  color:#e0e0e0
+  color:#757575
 }
 .work .row[name=projects]:before{
   content:"Projects:";
   border-bottom: .75px solid;
   width: 100%;
-  color:#e0e0e0
+  color:#757575
 }
