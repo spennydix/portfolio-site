@@ -19,6 +19,11 @@ h2 {
   margin-bottom: 1.5em;
 }
 
+a.nav-link.active {
+    color: #212121;
+    border-bottom: 1px solid;
+}
+
 .row.work{
   background-color:#f8f8f8;
   border-top: 1px solid #333;
