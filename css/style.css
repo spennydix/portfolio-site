@@ -42,10 +42,18 @@ h5.subtitle {
   margin: 1em 0em 2em;
 }
 .footer h5{color: #757575}
+.footer a:hover {
+    text-decoration: none;
+}
+
+i.fab{-webkit-transition-duration:200ms; transition-duration: 200ms;}
+i.fab:hover {font-size: 1.25rem;}
+
 
 .lander {
   background-color: #fff;
-  background-image: url(https://www.lander.com/skin/frontend/aloabani/home02_digital/images/lander-logo.svg);}
+  background-image: url(https://www.lander.com/skin/frontend/aloabani/home02_digital/images/lander-logo.svg);
+}
 
 .goalZero{background-color:#333; background-image: url('http://d14ivz84xz1srh.cloudfront.net/images/2013/logo.png')}
 
