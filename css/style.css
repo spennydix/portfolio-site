@@ -135,6 +135,7 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
     background-size: 40%;
     background-position: center center;
     transition-duration: 50ms;
+    cursor:pointer;
 }
 
 #productPage .w-item div {
@@ -145,8 +146,16 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
   margin:1em 0.25em;
   overflow:hidden;
 }
-
-
+.card{
+  -webkit-transition: all 200ms ease-in-out;
+    transition:         all 200ms ease-in-out;
+}
+.card:hover{
+  border: 1px solid rgba(0,0,0,.325);
+  cursor:pointer;
+  /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+}
+.card:hover * {cursor:pointer}
 
 /*footer*/
 a.fileDownload:before {
@@ -166,7 +175,7 @@ a.fileDownload:before {
 a.fileDownload {color: #6379d5;}
 
 
-.footer{background-color:#D3D3D3}
+.footer{background-color:#EEEEEE}
 
 /*product-pages*/
 #productPage .container-fluid.header {
