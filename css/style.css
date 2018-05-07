@@ -59,60 +59,60 @@ i.fab:hover {font-size: 1.25rem;}
 
 .dakine{
   background-color:#218666;
-  background-image: url('https://pull03-lpohbcpw0.netdna-ssl.com/skin/frontend/renegade/dakine2/images/dakine-logo.png');}
+  background-image: url('../images/clients/21866/21866-logo.png);}
 
 .breville{background-color:#472b46;
-background-image:url('https://www.breville.com/content/dam/breville/target-logos/breville-desktop.png');
+background-image:url('../images/clients/472b4/472b4-logo.png');
 }
 
 .jackWolfskin{
   background-color:#000;;
-  background-image:url('https://www.jack-wolfskin.se/on/demandware.static/Sites-JackWolfskin_EU-Site/-/default/dwbcf98a43/jws/images/jw-logo-box-yb.svg');
+  background-image:url('../images/clients/000/000-logo.png');
 }
 
 .kammok{
   background-color:#fff;
-  background-image:url('https://cdn.shopify.com/s/files/1/0345/4485/t/51/assets/logo-kammok.svg?6718558129564113229');
+  background-image:url('../images/clients/ff/ff-logo.png');
 }
 
 .sawyer {
-  background-image: url("https://sawyer.com/wp-content/themes/sawyer-2017-theme/svg/sawyer-logo.svg");
+  background-image: url("../images/clients/sawyer/sawyer-logo.png");
   background-color:#00add3;
 }
 .smith {
-  background-image: url("https://www.smithoptics.com/medias/smithoptics-logo.png?context=bWFzdGVyfGltYWdlc3wzOTA3fGltYWdlL3BuZ3xpbWFnZXMvaGJmL2hiYi84OTE0ODQwOTExOTAyLnBuZ3w0YWI3NTY0NWZiZGIyNTY1ZTUxMzcyMWViMmNhYWUyNTEyODgxN2U5YWY2NGY4YmI5ZTkwMzU3ZWMwZDgwY2Ni");
+  background-image: url("../images/clients/smith/smith-logo.png");
   background-color:#fff;
 }
 .toms {
-  background-image: url("http://www.toms.com/static/www/new/images/navigation/toms_logo.svg");
+  background-image: url("../images/clients/toms/toms-logo.png");
   background-color:#fff;
 }
 .timbuk2 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/00/Timbuk2_Logo.jpg");
+  background-image: url("../images/clients/timbuk2/timbuk2-logo.png");
   background-color:#fff;
 }
 .zeal {
-  background-image: url("https://www.zealoptics.com/_ui/addons/zealopticsaddon/desktop/common/images/brand-logo.svg");
+  background-image: url("../images/clients/zeal/zeal-logo.png");
   background-color:#366;
 }
 .voodoo {
-  background-image: url("https://i5.walmartimages.com/asr/6be8874c-5d6f-49b0-8a13-4b3db1e389e8_1.3874707a1d6732743ad30bec49bbc046.png");
+  background-image: url("../images/clients/voodoo/voodoo-logo.png");
   background-color:#000;
 }
 .coldSteel {
-  background-image: url("http://www.coldsteel.com/skin/frontend/smartwave/mango/images/cs_logo_white.png");
+  background-image: url("../images/clients/coldSteel/coldSteel-logo.png");
   background-color:#000;
 }
 .greenPan {
-  background-image: url("https://www.greenpan.us/sites/all/themes/custom/greenpan15/logo.png");
+  background-image: url("../images/clients/greenPan/greenPan-logo.png");
   background-color:#78a22f;
 }
 .identilock {
-  background-image: url("https://cdn.shopify.com/s/files/1/1859/6019/files/ID_logo_2fc0d9f8-9b2e-4abb-a88e-abbe8d5b1168_410x.png?v=1496220646");
+  background-image: url("../images/clients/identilock/identilock-logo.png");
   background-color:#fff;
 }
 .sportDog {
-  background-image: url("http://d38xyh0kzo0v0a.cloudfront.net/media/images/logo.png");
+  background-image: url("../images/clients/sportDog/sportDog-logo.png");
   background-color:#333;
 }
 .oakley{
@@ -122,6 +122,10 @@ background-image:url('https://www.breville.com/content/dam/breville/target-logos
 .hills{
   background-image: url("../images/clients/hills/hills-logo.png");
   background-color:#fff;
+}
+.hydroflask{
+  background-image: url("../images/clients/hydroflask/hydroflask-logo.png");
+  background-color:#000;
 }
 .nightforce{
   background-image: url("../images/clients/nightforce/nightforce-logo.png");
