@@ -50,29 +50,35 @@ i.fab{-webkit-transition-duration:200ms; transition-duration: 200ms;}
 i.fab:hover {font-size: 1.25rem;}
 
 
+/*w-item logos*/
+
 .lander {
+  background-image: url('../images/clients/lander/lander-logo.png');
   background-color: #fff;
-  background-image: url(https://www.lander.com/skin/frontend/aloabani/home02_digital/images/lander-logo.svg);
 }
 
-.goalZero{background-color:#333; background-image: url('http://d14ivz84xz1srh.cloudfront.net/images/2013/logo.png')}
+.goalZero{
+  background-image: url('../images/clients/goalZero/goalZero-logo.png');
+  background-color:#333;
+}
 
 .dakine{
+  background-image: url('../images/clients/dakine/dakine-logo.png');
   background-color:#218666;
-  background-image: url('../images/clients/21866/21866-logo.png);}
-
-.breville{background-color:#472b46;
-background-image:url('../images/clients/472b4/472b4-logo.png');
+}
+.breville{
+  background-image:url('../images/clients/breville/breville-logo.png');
+  background-color:#472b46;
 }
 
 .jackWolfskin{
-  background-color:#000;;
-  background-image:url('../images/clients/000/000-logo.png');
+  background-image:url('../images/clients/jackWolfskin/jackWolfskin-logo.png');
+  background-color:#000;
 }
 
 .kammok{
+  background-image:url('../images/clients/kammok/kammok-logo.png');
   background-color:#fff;
-  background-image:url('../images/clients/ff/ff-logo.png');
 }
 
 .sawyer {
@@ -131,6 +137,9 @@ background-image:url('../images/clients/472b4/472b4-logo.png');
   background-image: url("../images/clients/nightforce/nightforce-logo.png");
   background-color:#000;
 }
+
+
+/* XXX w-item-logos XXX */
 
 .e-item div, .p-item div, .w-item div {
     width: 100%;
