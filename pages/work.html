@@ -228,10 +228,11 @@
   								<div class="row">
   									<div class="col-0 col-sm-4 col-md-6 project-preview embed-responsive">
   										<div class="preview-image"></div>
-                      <video autoplay controls loop preload="none" class="embed-responsive-item" >
-                        <!-- <source src"" type="video/mp4"/> -->
-                        Your browser does not support the video tag.
-                      </video>
+                      <div class="video-walkthrough h-100">
+                        <video autoplay controls loop preload="none" class="embed-responsive-item" >
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
   										<!--<div class="content-image" style="background-image: url('../images/clients/lander/lander-preview-image.jpeg')"></div>-->
   									</div>
   									<div class="col-12 col-sm-8 col-md-5 project-copy">
@@ -328,9 +329,10 @@
     	            //  });
 
 
-                   $('video').html(
-                     "<source src=" + value[selectedBrand].video + " " + "type='video/mp4' />"
-                   );
+                   $('.video-walkthrough').html('<video autoplay controls loop preload="none" class="embed-responsive-item">'
+                   + '<source src=" '
+                   + value[selectedBrand].video + ' '
+                   + ' " type="video/mp4" /> Your browser does not support the video tag.</video> ');
 
 
     	             $('.project-title').html("<h1>" + value[selectedBrand].name + "</h1>");
