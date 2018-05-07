@@ -39,6 +39,12 @@ a.nav-link, li.nav-item{cursor:pointer !important}
   padding: 0em 1em;
 }
 
+.footer h5 {
+    color: #757575;
+    margin: 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
 h5.subtitle {
   color: #757575;
   text-transform: uppercase;
@@ -54,10 +60,10 @@ i.fab{-webkit-transition-duration:200ms; transition-duration: 200ms;}
 i.fab:hover {font-size: 1.25rem;}
 
 
-/*w-item logos*/
+/*card-item logos*/
 
 .process{
-background-image: url('../images/process-image.jpg');
+background-image: url('../images/process-image.png');
 }
 .products{
 background-image: url('../images/products-image.jpg');
@@ -154,9 +160,19 @@ background-image: url('../images/projects-image.jpg');
 }
 
 
-/* XXX w-item-logos XXX */
+/* XXX card-item-logos XXX */
 
-.e-item div, .p-item div, .w-item div {
+.w-item div {
+    width: 100%;
+    min-height: 15vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition-duration: 50ms;
+    cursor:pointer;
+}
+
+.e-item div, .p-item div{
     width: 100%;
     min-height: 15vw;
     background-repeat: no-repeat;
