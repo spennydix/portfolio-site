@@ -376,9 +376,10 @@
                    $('.length > span').html(" " + value[selectedBrand].length);
                    $('.writer > span').html(" " + value[selectedBrand].writer);
                    $('.budget > span').html(value[selectedBrand].budget);
-                   $('.responsibilities > span > p').html(value[selectedBrand].responsibilities);
-                   if (value[selectedBrand].responsibilities == null){
+                   if ( (value[selectedBrand].responsibilities == null) || (value[selectedBrand].responsibilities === "generic") ){
                      $('.responsibilities > span > p').html(value[generic].responsibilities);
+                   } else{
+                     $('.responsibilities > span > p').html(value[selectedBrand].responsibilities);
                    };
     	             $('.previewBtn').attr("href", value[selectedBrand].liveLink);
     	             $('.p-item.similarProj1').addClass(value[selectedBrand].similar1);
