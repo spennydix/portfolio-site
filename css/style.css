@@ -285,8 +285,8 @@ span.icon-x:hover{
     z-index: 0;
     position: absolute;
     width: 100%;
-    width: calc(100% - 30px);
-    top: 1em;
+    width: 100%;
+    top: 1.2em;
 }
 
 .modal-xl {
