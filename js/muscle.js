@@ -1,3 +1,7 @@
+$(function(drawCanvas){
+
+
+
 var canvas = document.getElementById("technicalAbility");
 
 var gradientBlue = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
@@ -172,6 +176,10 @@ window.chart = new Chart(document.getElementById("physicalProwess"), {
     },
     plugins: [shadowed]
 });
+
+});
+
+
 
 window.chart = new Chart(document.getElementById("engagementData"), {
 		type: 'line',

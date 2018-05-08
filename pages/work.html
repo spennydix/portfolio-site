@@ -247,6 +247,90 @@
         </div>
       </div>
     </div>
+    <div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade bd-example-modal-xl" role="dialog" tabindex="-1">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+					<div id="productPage">
+						<div class="container-fluid header">
+							<span class="icon-x close" data-dismiss="modal" aria-label="Close"></span>
+							<div class="logo"></div>
+						</div>
+						<div class="container-fluid content">
+							<div class="container">
+								<div class="row">
+                  <div class="col-0 col-sm-4 col-md-6 project-preview embed-responsive">
+										<div class="preview-image"></div>
+                    <div class="video-walkthrough h-100">
+                      <video autoplay controls loop preload="none" class="embed-responsive-item" >
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+										<!--<div class="content-image" style="background-image: url('../images/clients/lander/lander-preview-image.jpeg')"></div>-->
+  								</div>
+									<div class="col-12 col-sm-8 col-md-5 project-copy">
+										<div class="project-title"></div>
+										<div class="project-description"></div><a class="col-10 offset-1 offset-sm-0 col-sm-6 previewBtn btn btn-outline-danger btn-lg" target="_blank">View Site</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="container-fluid stats">
+							<div class="container">
+								<div class="row">
+									<div class="col-12 col-sm-12 col-md-4 scope-copy">
+										<div class="project-subtitle scope"><h2>Scope:</h2></div>
+										<div class="project-bullets">
+											<ul>
+												<li class="bullet goal"><b>Goal:</b><span>XXX</span></li>
+												<li class="bullet scope"><b>Scope:</b><span>XXX</span></li>
+												<li class="bullet stakeholder"><b>Stakeholder:</b><span>XXX</span></li>
+												<li class="bullet length"><b>Duration:</b><span>XXX</span> minutes</li>
+												<li class="bullet writer"><b>Writer:</b><span>XXX</span></li>
+												<li class="bullet budget"><b>Content Budget:</b>$<span>XXX</span></li>
+											</ul>
+										</div>
+									</div>
+                  <div class="col-12 col-sm-12 col-md-8 responsibilities-copy">
+                    	<div class="project-subtitle responsibilities-title"><h2>Responsibilities:</h2></div>
+                      <div class="responsibilities">
+                        <span><p>
+                          XXX
+                        </p></span>
+                      </div>
+
+                  </div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="container-fluid results">
+							<div class="container">
+								<div class="row">
+									<div class="col-12 col-sm-8 col-md-6 project-results graphs">
+										<div class="project-subtitle results"><h2>Results:</h2></div>
+
+                      <canvas height="200" id="engagementData" width="600"></canvas>
+                      <h5 class="subtitle">Engagement</h5>
+
+										[pipe in graphs - engagement, survey responses, order $]
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="container-fluid footer">
+							<div class="container">
+								<h2>more work</h2>
+								<div class="row similarProjects"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" type="text/javascript"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" type="text/javascript"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" type="text/javascript"></script>
@@ -259,7 +343,8 @@
     console.log(userChoice);
 
     	   $.getJSON('../data/projects.json', function(data) {
-    			 var selectedBrand = userChoice
+    			 var selectedBrand = userChoice;
+           var generic = "generic";
     	     $(data.project).each(function(index, value) {
     	         if (value[selectedBrand].name == selectedBrand) {
     	             $('#productPage .header').css({
@@ -292,7 +377,9 @@
                    $('.writer > span').html(" " + value[selectedBrand].writer);
                    $('.budget > span').html(value[selectedBrand].budget);
                    $('.responsibilities > span > p').html(value[selectedBrand].responsibilities);
-
+                   if (value[selectedBrand].responsibilities == null){
+                     $('.responsibilities > span > p').html(value[generic].responsibilities);
+                   };
     	             $('.previewBtn').attr("href", value[selectedBrand].liveLink);
     	             $('.p-item.similarProj1').addClass(value[selectedBrand].similar1);
     	             $('.p-item.similarProj2').addClass(value[selectedBrand].similar2);

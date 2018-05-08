@@ -161,7 +161,8 @@
 			"header": "../images/clients/nightforce/nightforce-header.jpg",
 			"preview": "../images/clients/nightforce/nightforce-preview-image.jpg",
 			"budget": "27,700",
-			"scope": "",
+			"goal": "Brand awareness, product seeding",
+			"scope": "Content Update/Overhaul",
 			"quote": "Overall I really like the design of the site, it's really digestible and above all else, just sexy! Really well done.",
 			"stakeholder": "Wayne Dayberry, Marketing Specialist",
 			"liveLink": "XXX"
@@ -315,6 +316,18 @@
 			"stakeholder": "Britney Starr, Marketing Specialist",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13691#page/1"
 
+		},
+		"generic": {
+			"name": "generic",
+			"type": "brand/product",
+			"length": "5",
+			"description": "Full write-up coming soon.",
+			"responsibilities": "I co-managed and co-directed this brand's budget for retail training / digital influencer e-learning. I worked with an Instructional designer to create a website, or suite of websites to educate a closed audience of expert influencers. I was directly in charge of designing site layouts, brand marketing collateral as well as building their digital experience in plain HTML + CSS + Javascript.",
+			"logo": "",
+			"header": "",
+			"preview": "",
+			"budget": "TBD",
+			"scope": ""
 		}
 	}],
 	"personal": [{
@@ -356,6 +369,7 @@
 		"identilock": "identilock",
 		"sportDog": "sportDog",
 		"hills": "hills",
-		"oakley": "oakley"
+		"oakley": "oakley",
+		"hydroflask": "hydroflask"
 	}
 }
