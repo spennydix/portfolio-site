@@ -103,7 +103,7 @@ background-image: url('../images/projects-image.jpg');
 }
 
 .sawyer {
-  background-image: url("../images/clients/sawyer/saywer-logo.png");
+  background-image: url("../images/clients/sawyer/sawyer-logo.png");
   background-color:#00add3;
 }
 .smith {
@@ -328,3 +328,11 @@ body {
 }
 .w-description *{text-align:center;}
 .w-description h4{text-transform:uppercase; font-weight:bold;}
+
+i.far.fa-times-circle.close {
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 3em;
+}
