@@ -28,6 +28,7 @@ a.nav-link.active:hover {
 }
 a.nav-link, li.nav-item{cursor:pointer !important}
 .footer a, .footer a:hover, .footer i:hover{cursor:pointer !important}
+.footer a > i{color:initial}
 .row.work{
   background-color:#f8f8f8;
   border-top: 1px solid #333;
