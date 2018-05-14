@@ -29,6 +29,7 @@ a.nav-link.active:hover {
 a.nav-link, li.nav-item{cursor:pointer !important}
 .footer a, .footer a:hover, .footer i:hover{cursor:pointer !important}
 .footer a > i{color:initial}
+.footer .docs i{color:unset !important}
 .row.work{
   background-color:#f8f8f8;
   border-top: 1px solid #333;
@@ -287,7 +288,7 @@ span.icon-x:hover{
     position: absolute;
     width: 100%;
     width: 100%;
-    top: 1.2em;
+    top: 1.15em;
 }
 
 .modal-xl {
@@ -315,17 +316,19 @@ body {
     display: block;
 }
 
-.work .row[name=elements]:before{
+.work .container[name=elements]:before{
   content:"Interactions:";
   border-bottom: .75px solid;
   width: 100%;
-  color:#757575
+  color:#757575;
+  display:block;
 }
-.work .row[name=projects]:before{
+.work .container[name=projects]:before{
   content:"Experiences:";
   border-bottom: .75px solid;
   width: 100%;
-  color:#757575
+  color:#757575;
+  display:block;
 }
 .w-description *{text-align:center;}
 .w-description h4{text-transform:uppercase; font-weight:bold;}

@@ -125,7 +125,7 @@
 			"type": "brand/product e-learning",
 			"length": "3",
 			"writer": "Matthew Nanes",
-			"description": "Jack Wolfskin is a household brand in Europe, recognized for its reputation by innovative German design and engineering and a commitment to environmentally friendly production.This project was a 1000 engagement test to see how much product they could seed to experts, that ultimately failed. but it looks nice, and there were a number of contributing factors behind the it's lack of success.",
+			"description": "Jack Wolfskin is a household brand in Europe, recognized for its reputation by innovative German design and engineering and a commitment to environmentally friendly production. This project was a 1000 engagement test to see how much product they could seed to experts, that ultimately failed... there were a number of contributing factors behind the it's lack of success. Not to deflect, but they were all out of my hands. The client was satisfied with the content. Dissatisfied with the platform.",
 			"logo": "../images/clients/jackWolfskin/jackWolfskin-logo.png",
 			"header": "",
 			"preview": "../images/clients/jackWolfskin/jackWolfskin-preview-image.jpg",
@@ -340,14 +340,16 @@
 			"preview": "../images/clients/tophat/tophat-preview-image.jpg"
 		},
 		"portfolio": {
-			"name": "",
-			"type": "",
-			"length": "",
-			"description": "",
-			"logo": "",
+			"name": "portfolio",
+			"type": "portfolio",
+			"length": "just long enough to fall in love w/ me",
+			"description": "I built this. It has taken way too long and I am probably still working on some part of it, but here you are nevertheless.",
+			"logo": "../images/favicon/ms-icon-310x310.png",
 			"header": "",
+			"responsibilities": "This is my site, I built it from scratch with help from bootstrap, fontawesome, chartjs, and a few friends, the images and logos are property of the brands I was working with but the site UI/UX was all me. I'm sure it feels vaguely like some squarespace template, but I was unaware of it when I set out to build this portfolio.",
 			"writer": "Spencer & Taylor Dixon",
-			"preview": "../images/clients/portfolio/portfolio-preview-image.jpg"
+			"preview": "../images/clients/portfolio/indieandi.jpg",
+			"liveLink": "http://www.spencerdixon.design"
 		}
 	}],
 	"brandList": {
