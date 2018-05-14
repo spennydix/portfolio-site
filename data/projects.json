@@ -2,7 +2,7 @@
 	"project": [{
 		"lander": {
 			"name": "lander",
-			"type": "product",
+			"type": "product e-learning",
 			"length": "10",
 			"writer": "Kaylee Hahn",
 			"description": "Lander was releasing its first REI exclusive product, the Cairn, and we spoke to a designer to get the scoop on some of its most interesting features. In this experience, you'll find more information about this game-changing lantern, as well as:<ul><li>An introduction to the Lander product ecosystem</li><li>A deeper dive into key Lander technologies, including Thermoline</li><li>Insights from the brand about how these products were created, named, and tested</li></ul>",
@@ -18,7 +18,7 @@
 
 		"breville": {
 			"name": "breville",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "10",
 			"writer": "Matthew Nanes",
 			"description": "Breville’s Oracle® Touch makes premium, automatic, café-quality espresso. In these new modules, we take a deep dive on Breville’s “super-automatic” espresso machine alongside Breville’s coffee master Alejandra Lin. Better yet, we even threw a coffee social hosted by Alejandra and Experticity to test out the Oracle® Touch to coffee fanatics. What happens? You’re going to have to take the lessons to find out.",
@@ -34,7 +34,7 @@
 
 		"dakine": {
 			"name": "dakine",
-			"type": "product",
+			"type": "product e-learning",
 			"writer": "Seth Merrill",
 			"length": "5",
 			"description": "With its home base in Hood River, Oregon, Dakine has access to snowy slopes (and the athletes that ride them) nearly year round. This gives its designers a constant stream of product testers to tap for inspiration and feedback. What does that mean for the customer? Products that aren’t created in a lab, but on the slopes.We talked to two Dakine designers to get their insights and stories behind this season’s snow bibs and backpacks.",
@@ -49,7 +49,7 @@
 		},
 		"goalZero": {
 			"name": "goalZero",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "",
 			"writer": "Jenna Anderson",
 			"description": "Goal Zero began in 2007 with Robert Workman teaching villagers how to run a sustainable business in their communities and empowering them to lift themselves out of poverty. Today Goal Zero strives to put reliable power in the hands of every human on earth.We created a series of digital experiences to educate our audience about products, new and old– to help them better fit customer need with their recommendations.",
@@ -64,7 +64,7 @@
 		},
 		"greenPan": {
 			"name": "greenPan",
-			"type": "product/quiz",
+			"type": "product/quiz e-learning",
 			"length": "6",
 			"writer": "Seth Merrill & Colin Santos",
 			"description": "The one that got away... Greenpan was a labor of love, a passion project for all involved. They make technical, non-stick cookware and had very specific concerns they wanted addressed. We created 2 innovative pieces of micro-content: a buzzfeed-esque quiz, and a narrative story. I wont <em>mince</em> words they were awesome and ground-breaking, when compared to the other work we were doing. Our brand partners loved them, but had to cancel their program with Experticity due to budget cuts at their parent company.",
@@ -80,7 +80,7 @@
 		},
 		"hills": {
 			"name": "hills",
-			"type": "product",
+			"type": "product e-learning",
 			"length": "65",
 			"writer": "Alex Nygaard",
 			"description": "XXX",
@@ -94,7 +94,7 @@
 		},
 		"hydroflask": {
 			"name": "hydroflask",
-			"type": "Tech/Products",
+			"type": "Tech/Products e-learning",
 			"length": "6",
 			"writer": "Seth Merrill, Jenn Olsen",
 			"description": "I inherited this project after 2 sites had already been built, we had missed the mark. I was in charge of rebuilding both sites and fixing the client relationship. What I created was more in line with what the client wanted originally and the only edits we had to make were adding 8413651864 icons. A big brand for ExpertVoice, not much contract value, because the bulk of our revenue was made in order commission.",
@@ -108,7 +108,7 @@
 		},
 		"jackWolfskin": {
 			"name": "jackWolfskin",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "3",
 			"writer": "Matthew Nanes",
 			"description": "Jack Wolfskin is a household brand in Europe, recognized for its reputation by innovative German design and engineering and a commitment to environmentally friendly production.This project was a 1000 engagement test to see how much product they could seed to experts, that ultimately failed. but it looks nice, and there were a number of contributing factors behind the it's lack of success.",
@@ -123,7 +123,7 @@
 		},
 		"kammok": {
 			"name": "kammok",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "5",
 			"writer": "Jenna Anderson",
 			"description": "When we heard that we were going to be working with Kammok, we couldn’t wait to take their hammocks out. Kammok designs for the outdoor gearhead who wants the best and needs great performance.",
@@ -138,7 +138,7 @@
 		},
 		"MDT": {
 			"name": "MDT",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "5",
 			"writer": "Matthew Nanes",
 			"description": "Brand provided videos, we fit it in to a story arc and introduced their new product.",
@@ -153,7 +153,7 @@
 		},
 		"nightforce": {
 			"name": "nightforce",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "3",
 			"writer": "Coy Whittier",
 			"description": "XXX",
@@ -169,7 +169,7 @@
 		},
 		"oakley": {
 			"name": "oakley",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "45",
 			"writer": "Jenna Anderson, Sam Flickinger",
 			"description": "XXX",
@@ -183,7 +183,7 @@
 		},
 		"sawyer": {
 			"name": "sawyer",
-			"type": "product",
+			"type": "product e-learning",
 			"length": "17",
 			"writer": "Jenna Anderson",
 			"description": "Sawyer’s new Select Filters and Purifiers use a proprietary foam adsorption technology that is changing the game in water filtration.We created a new piece of micro-content showcasing their newest product line.",
@@ -199,7 +199,7 @@
 		},
 		"smith": {
 			"name": "smith",
-			"type": "brand/product/tech",
+			"type": "brand/product/tech e-learning",
 			"length": "15",
 			"writer": "Sam Flickinger",
 			"description": "",
@@ -214,7 +214,7 @@
 		},
 		"toms": {
 			"name": "toms",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "25",
 			"writer": "Alex Nygaard",
 			"description": "The one for one charity model started here. We sat down with many people inside the TOMS brand, from CEO, to founder, to product designers. We got the inside scoop and served it up for our experts to consume.",
@@ -229,7 +229,7 @@
 		},
 		"timbuk2": {
 			"name": "timbuk2",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "10",
 			"writer": "Alex Nygaard",
 			"description": "Light, nimble and fearless, the gears are always turning at Timbuk2 to dream up stylish solutions for the digital nomad. For nearly three decades the brand has shaped urban style and tech-forward fashion from its home base in San Francisco.",
@@ -244,7 +244,7 @@
 		},
 		"zeal": {
 			"name": "zeal",
-			"type": "product/tech",
+			"type": "product/tech e-learning",
 			"length": "7",
 			"writer": "Seth Merrill",
 			"description": "In this overhaul we set Zeal Optics up for a more focused, seasonally-relevant approach. For this coming winter season, members will be reminded of what Zeal Optics stands for, as well as learn about the latest goggles and goggle technologies.",
@@ -259,7 +259,7 @@
 		},
 		"voodoo": {
 			"name": "voodoo",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "20",
 			"writer": "Alex Nygaard",
 			"description": "Description Needed FPO",
@@ -274,7 +274,7 @@
 		},
 		"coldSteel": {
 			"name": "coldSteel",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "6",
 			"writer": "Seth Merrill",
 			"description": "We dare you to find a knife brand more bold than Cold Steel and a personality more electric than its founder, Lynn Thompson. If you've heard of Cold Steel, you probably know about their zany, viral, apocalyptic testing videos — Experticity shows you the motivation behind the madness with an exclusive look at the technology and inspiration that makes Cold Steel some of the strongest, safest knives on the market. This experience includes:<ul><li>An interactive 'Week in the Life' calendar of Cold Steel founder Lynn Thompson's rigorous training schedule, establishing his expert credentials</li><li>A visual dissection of the four unique features of Cold Steel's famous Tri-Ad Lock</li><li>A Lynn Thompson Q&A with questions sourced from the Experticity community</li><li>Featured product tool tips, flip cards and a ton more</li></ul>",
@@ -289,7 +289,7 @@
 		},
 		"identilock": {
 			"name": "identilock",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "7",
 			"writer": "Seth Merrill",
 			"description": "Description Needed FPO",
@@ -304,7 +304,7 @@
 		},
 		"sportDog": {
 			"name": "sportDog",
-			"type": "brand/product",
+			"type": "brand/product e-learning",
 			"length": "20",
 			"writer": "Jenna Anderson & Coy Whittier",
 			"description": "SportDOG has undergone a much-needed overhaul with the goal of changing people’s minds about training collars. We spoke with Josh Miller, a long-time SportDOG employee, professional dog trainer, and a man who is not afraid to open up about his emotional journey with his own dog (Easton) that led him to be so passionate about what he does.You will also find:<ul><li>Comprehensive product overview of Training, Tracking and Containment products in a sleek, new article-style design</li><li>Quotes from our interview with Josh Miller</li><li>A look at the new TEK 2.0 GPS-tracking system</li></ul>",
