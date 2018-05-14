@@ -1,20 +1,5 @@
 {
 	"project": [{
-		"lander": {
-			"name": "lander",
-			"type": "product e-learning",
-			"length": "10",
-			"writer": "Kaylee Hahn",
-			"description": "Lander was releasing its first REI exclusive product, the Cairn, and we spoke to a designer to get the scoop on some of its most interesting features. In this experience, you'll find more information about this game-changing lantern, as well as:<ul><li>An introduction to the Lander product ecosystem</li><li>A deeper dive into key Lander technologies, including Thermoline</li><li>Insights from the brand about how these products were created, named, and tested</li></ul>",
-			"logo": "../images/clients/lander/lander-logo.png",
-			"header": "https://cdn.experticity.com/contrib/mfg/lander/contrib/images/MODULE-13704-cairn-breaker-2.jpg",
-			"preview": "../images/clients/lander/lander-preview-image.jpg",
-			"video": "../images/clients/lander/lander-recording.mp4",
-			"budget": "17,364",
-			"scope": "2 modules",
-			"stakeholder": "Evan Miller, Channel Marketing Manager",
-			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13704#page/1"
-		},
 
 		"breville": {
 			"name": "breville",
@@ -31,7 +16,21 @@
 			"stakeholder": "Clifford Torng, Global Go-to-Market Officer",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13797#page/1"
 		},
+		"coldSteel": {
+			"name": "coldSteel",
+			"type": "brand/product e-learning",
+			"length": "6",
+			"writer": "Seth Merrill",
+			"description": "We dare you to find a knife brand more bold than Cold Steel and a personality more electric than its founder, Lynn Thompson. If you've heard of Cold Steel, you probably know about their zany, viral, apocalyptic testing videos — Experticity shows you the motivation behind the madness with an exclusive look at the technology and inspiration that makes Cold Steel some of the strongest, safest knives on the market. This experience includes:<ul><li>An interactive 'Week in the Life' calendar of Cold Steel founder Lynn Thompson's rigorous training schedule, establishing his expert credentials</li><li>A visual dissection of the four unique features of Cold Steel's famous Tri-Ad Lock</li><li>A Lynn Thompson Q&A with questions sourced from the Experticity community</li><li>Featured product tool tips, flip cards and a ton more</li></ul>",
+			"logo": "../images/clients/coldSteel/coldSteel-logo.png",
+			"header": "",
+			"preview": "../images/clients/coldSteel/coldSteel-preview-image.jpg",
+			"budget": "73,900",
+			"scope": "1 module",
+			"stakeholder": "Lynn Thompson, President and CEO",
+			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13757#page/1"
 
+		},
 		"dakine": {
 			"name": "dakine",
 			"type": "product e-learning",
@@ -106,6 +105,21 @@
 			"stakeholder": "Nazera Carlson, Retail Marketing Specialist",
 			"liveLink": ""
 		},
+		"identilock": {
+			"name": "identilock",
+			"type": "brand/product e-learning",
+			"length": "7",
+			"writer": "Seth Merrill",
+			"description": "Description Needed FPO",
+			"logo": "../images/clients/identilock/identilock-logo.png",
+			"header": "",
+			"preview": "../images/clients/identilock/identilock-preview-image.jpg",
+			"budget": "",
+			"scope": "",
+			"stakeholder": "Omer Kiyani, Founder and CEO",
+			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13958#page/1"
+
+		},
 		"jackWolfskin": {
 			"name": "jackWolfskin",
 			"type": "brand/product e-learning",
@@ -135,6 +149,21 @@
 			"stakeholder": "",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13443#page/1"
 
+		},
+		"lander": {
+			"name": "lander",
+			"type": "product e-learning",
+			"length": "10",
+			"writer": "Kaylee Hahn",
+			"description": "Lander was releasing its first REI exclusive product, the Cairn, and we spoke to a designer to get the scoop on some of its most interesting features. In this experience, you'll find more information about this game-changing lantern, as well as:<ul><li>An introduction to the Lander product ecosystem</li><li>A deeper dive into key Lander technologies, including Thermoline</li><li>Insights from the brand about how these products were created, named, and tested</li></ul>",
+			"logo": "../images/clients/lander/lander-logo.png",
+			"header": "https://cdn.experticity.com/contrib/mfg/lander/contrib/images/MODULE-13704-cairn-breaker-2.jpg",
+			"preview": "../images/clients/lander/lander-preview-image.jpg",
+			"video": "../images/clients/lander/lander-recording.mp4",
+			"budget": "17,364",
+			"scope": "2 modules",
+			"stakeholder": "Evan Miller, Channel Marketing Manager",
+			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13704#page/1"
 		},
 		"MDT": {
 			"name": "MDT",
@@ -212,6 +241,21 @@
 			"liveLink": ""
 
 		},
+		"sportDog": {
+			"name": "sportDog",
+			"type": "brand/product e-learning",
+			"length": "20",
+			"writer": "Jenna Anderson & Coy Whittier",
+			"description": "SportDOG has undergone a much-needed overhaul with the goal of changing people’s minds about training collars. We spoke with Josh Miller, a long-time SportDOG employee, professional dog trainer, and a man who is not afraid to open up about his emotional journey with his own dog (Easton) that led him to be so passionate about what he does.You will also find:<ul><li>Comprehensive product overview of Training, Tracking and Containment products in a sleek, new article-style design</li><li>Quotes from our interview with Josh Miller</li><li>A look at the new TEK 2.0 GPS-tracking system</li></ul>",
+			"logo": "../images/clients/sportDog/sportDog-logo.png",
+			"header": "",
+			"preview": "../images/clients/sportDog/sportDog-preview-image.jpg",
+			"budget": "",
+			"scope": "",
+			"stakeholder": "Britney Starr, Marketing Specialist",
+			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13691#page/1"
+
+		},
 		"toms": {
 			"name": "toms",
 			"type": "brand/product e-learning",
@@ -242,21 +286,6 @@
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13970#page/1"
 
 		},
-		"zeal": {
-			"name": "zeal",
-			"type": "product/tech e-learning",
-			"length": "7",
-			"writer": "Seth Merrill",
-			"description": "In this overhaul we set Zeal Optics up for a more focused, seasonally-relevant approach. For this coming winter season, members will be reminded of what Zeal Optics stands for, as well as learn about the latest goggles and goggle technologies.",
-			"logo": "../images/clients/zeal/zeal-logo.png",
-			"header": "",
-			"preview": "../images/clients/zeal/zeal-preview-image.jpg",
-			"budget": "",
-			"scope": "",
-			"stakeholder": "Mike Lewis, Director of Brand Activation & Digital Strategy",
-			"liveLink": "https://www.experticity.com/learn/preview?moduleId=14022#page/1"
-
-		},
 		"voodoo": {
 			"name": "voodoo",
 			"type": "brand/product e-learning",
@@ -272,49 +301,19 @@
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13500#page/1"
 
 		},
-		"coldSteel": {
-			"name": "coldSteel",
-			"type": "brand/product e-learning",
-			"length": "6",
-			"writer": "Seth Merrill",
-			"description": "We dare you to find a knife brand more bold than Cold Steel and a personality more electric than its founder, Lynn Thompson. If you've heard of Cold Steel, you probably know about their zany, viral, apocalyptic testing videos — Experticity shows you the motivation behind the madness with an exclusive look at the technology and inspiration that makes Cold Steel some of the strongest, safest knives on the market. This experience includes:<ul><li>An interactive 'Week in the Life' calendar of Cold Steel founder Lynn Thompson's rigorous training schedule, establishing his expert credentials</li><li>A visual dissection of the four unique features of Cold Steel's famous Tri-Ad Lock</li><li>A Lynn Thompson Q&A with questions sourced from the Experticity community</li><li>Featured product tool tips, flip cards and a ton more</li></ul>",
-			"logo": "../images/clients/coldSteel/coldSteel-logo.png",
-			"header": "",
-			"preview": "../images/clients/coldSteel/coldSteel-preview-image.jpg",
-			"budget": "73,900",
-			"scope": "1 module",
-			"stakeholder": "Lynn Thompson, President and CEO",
-			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13757#page/1"
-
-		},
-		"identilock": {
-			"name": "identilock",
-			"type": "brand/product e-learning",
+		"zeal": {
+			"name": "zeal",
+			"type": "product/tech e-learning",
 			"length": "7",
 			"writer": "Seth Merrill",
-			"description": "Description Needed FPO",
-			"logo": "../images/clients/identilock/identilock-logo.png",
+			"description": "In this overhaul we set Zeal Optics up for a more focused, seasonally-relevant approach. For this coming winter season, members will be reminded of what Zeal Optics stands for, as well as learn about the latest goggles and goggle technologies.",
+			"logo": "../images/clients/zeal/zeal-logo.png",
 			"header": "",
-			"preview": "../images/clients/identilock/identilock-preview-image.jpg",
+			"preview": "../images/clients/zeal/zeal-preview-image.jpg",
 			"budget": "",
 			"scope": "",
-			"stakeholder": "Omer Kiyani, Founder and CEO",
-			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13958#page/1"
-
-		},
-		"sportDog": {
-			"name": "sportDog",
-			"type": "brand/product e-learning",
-			"length": "20",
-			"writer": "Jenna Anderson & Coy Whittier",
-			"description": "SportDOG has undergone a much-needed overhaul with the goal of changing people’s minds about training collars. We spoke with Josh Miller, a long-time SportDOG employee, professional dog trainer, and a man who is not afraid to open up about his emotional journey with his own dog (Easton) that led him to be so passionate about what he does.You will also find:<ul><li>Comprehensive product overview of Training, Tracking and Containment products in a sleek, new article-style design</li><li>Quotes from our interview with Josh Miller</li><li>A look at the new TEK 2.0 GPS-tracking system</li></ul>",
-			"logo": "../images/clients/sportDog/sportDog-logo.png",
-			"header": "",
-			"preview": "../images/clients/sportDog/sportDog-preview-image.jpg",
-			"budget": "",
-			"scope": "",
-			"stakeholder": "Britney Starr, Marketing Specialist",
-			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13691#page/1"
+			"stakeholder": "Mike Lewis, Director of Brand Activation & Digital Strategy",
+			"liveLink": "https://www.experticity.com/learn/preview?moduleId=14022#page/1"
 
 		},
 		"generic": {
