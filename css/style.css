@@ -18,6 +18,9 @@ h2 {
   color: #757575;
   margin-bottom: 1.5em;
 }
+.ta-center{
+  text-align:center;
+}
 
 a.nav-link.active {
     color: #212121;
