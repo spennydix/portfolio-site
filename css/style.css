@@ -343,3 +343,11 @@ i.far.fa-times-circle.close {
     top: 20px;
     font-size: 3em;
 }
+
+/*MODAL OVERWRITE*/
+.modal-open {
+    overflow: initial;
+}
+.modal {
+    position: relative;
+}
