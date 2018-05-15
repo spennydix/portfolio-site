@@ -265,12 +265,12 @@
             </div>
 
 
-            <div class="container-fluid footer">
+            <!-- <div class="container-fluid footer d-none">
               <div class="container">
                 <h2>more work</h2>
                 <div class="row similarProjects"></div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -411,32 +411,32 @@
                      $('.responsibilities > span > p').html(value[selectedBrand].responsibilities);
                    };
     	             $('.previewBtn').attr("href", value[selectedBrand].liveLink);
-    	             $('.p-item.similarProj1').addClass(value[selectedBrand].similar1);
-    	             $('.p-item.similarProj2').addClass(value[selectedBrand].similar2);
-    	             $('.p-item.similarProj3').addClass(value[selectedBrand].similar3);
-    	             $('.p-item.similarProj4').addClass(value[selectedBrand].similar4);
+    	            //  $('.p-item.similarProj1').addClass(value[selectedBrand].similar1);
+    	            //  $('.p-item.similarProj2').addClass(value[selectedBrand].similar2);
+    	            //  $('.p-item.similarProj3').addClass(value[selectedBrand].similar3);
+    	            //  $('.p-item.similarProj4').addClass(value[selectedBrand].similar4);
     	         } else {
     	             alert('Loading project details failed. Sorry!');
     	         }
     	     });
     	     // needs to be replaced with more sophisticated function that randomly selects 4 values, and saves them to 4 variables.
-    	     $(data.brandList).each(function(index, value) {
-    	         var projectList = Object.values(data.brandList);
-    	         similarProject1 = projectList[Math.floor(Math.random() * projectList.length)];
-    	         similarProject2 = projectList[Math.floor(Math.random() * projectList.length)];
-    	         similarProject3 = projectList[Math.floor(Math.random() * projectList.length)];
-    	         similarProject4 = projectList[Math.floor(Math.random() * projectList.length)];
-    	         $('.similarProjects').html('<div class="col-6 col-sm-3"><div class="p-item"><div class="' + similarProject1 + '"></div></div></div>');
-    	         if (similarProject2 != similarProject1) {
-    	             $('.similarProjects').append('<div class="col-6 col-sm-3"><div class="p-item"><div class="' + similarProject2 + '"></div></div></div>');
-    	         }  if (similarProject3 != similarProject1 && similarProject3 != similarProject2) {
-    	             $('.similarProjects').append('<div class="col-6 col-sm-3"><div class="p-item"><div class="' + similarProject3 + '"></div></div></div>');
-    	         }  if (similarProject4 != similarProject1 && similarProject4 != similarProject2 && similarProject4 != similarProject3) {
-    	             $('.similarProjects').append('<div class="col-6 col-sm-3"><div class="p-item"><div class="' + similarProject4 + '"></div></div></div>');
-    	         } else {}
-    	         console.log("Project List: " + projectList);
-    	         console.log(similarProject1 + " " + similarProject2 + " " + similarProject3 + " " + similarProject4);
-    	     });
+    	    //  $(data.brandList).each(function(index, value) {
+    	    //      var projectList = Object.values(data.brandList);
+    	    //      similarProject1 = projectList[Math.floor(Math.random() * projectList.length)];
+    	    //      similarProject2 = projectList[Math.floor(Math.random() * projectList.length)];
+    	    //      similarProject3 = projectList[Math.floor(Math.random() * projectList.length)];
+    	    //      similarProject4 = projectList[Math.floor(Math.random() * projectList.length)];
+    	    //      $('.similarProjects').html('<div class="col-6 col-sm-3"><div class="p-item"><div class="' + similarProject1 + '"></div></div></div>');
+    	    //      if (similarProject2 != similarProject1) {
+    	    //          $('.similarProjects').append('<div class="col-6 col-sm-3"><div class="p-item"><div class="' + similarProject2 + '"></div></div></div>');
+    	    //      }  if (similarProject3 != similarProject1 && similarProject3 != similarProject2) {
+    	    //          $('.similarProjects').append('<div class="col-6 col-sm-3"><div class="p-item"><div class="' + similarProject3 + '"></div></div></div>');
+    	    //      }  if (similarProject4 != similarProject1 && similarProject4 != similarProject2 && similarProject4 != similarProject3) {
+    	    //          $('.similarProjects').append('<div class="col-6 col-sm-3"><div class="p-item"><div class="' + similarProject4 + '"></div></div></div>');
+    	    //      } else {}
+    	    //      console.log("Project List: " + projectList);
+    	    //      console.log(similarProject1 + " " + similarProject2 + " " + similarProject3 + " " + similarProject4);
+    	    //  });
     	   });
     	 });
 
