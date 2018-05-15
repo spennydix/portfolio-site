@@ -118,10 +118,10 @@ window.chart = new Chart(document.getElementById("technicalAbility"), {
 window.chart = new Chart(document.getElementById("interpersonalSkills"), {
     type: "radar",
     data: {
-        labels: ["Communication", "Self Confidence", "Teamwork", "Problem Solving", "Public Speaking", "Leadership"],
+        labels: ["Communication", "Self Confidence", "Teamwork", "Problem Solving", "Aptitude", "Leadership"],
         datasets: [{
             label: "Interpersonal Skills",
-            data: [90, 77, 80, 95, 70, 90],
+            data: [90, 79, 80, 95, 98, 90],
             fill: true,
             backgroundColor: gradientBlue,
             borderColor: 'transparent',
