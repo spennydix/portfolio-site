@@ -187,7 +187,7 @@ background-image: url('../images/projects-image.jpg');
     cursor:pointer;
 }
 
-#productPage .w-item div {
+#activeProjectModal .w-item div {
     background-size: 50%;
 }
 
@@ -209,6 +209,9 @@ background-image: url('../images/projects-image.jpg');
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
   border: 1px solid rgba(0,0,0,.325);
 }
+
+
+
 /*footer*/
 a.fileDownload:before {
     font-family: "untitled-font-8" !important;
@@ -230,11 +233,11 @@ a.fileDownload {color: #6379d5;}
 .footer{background-color:#EEEEEE}
 
 /*product-pages*/
-#productPage .container-fluid.header {
+#activeProjectModal .container-fluid.header {
 padding: 0px;
 background-color:#333;
 }
-#productPage .container-fluid.header .logo {
+#activeProjectModal .container-fluid.header .logo {
     height: 40vh;
     display: block;
     background-position: center center;
@@ -242,7 +245,7 @@ background-color:#333;
     background-repeat: no-repeat;
     background-size: 20em;
 }
-#productPage h1 {
+#activeProjectModal h1 {
     text-transform: capitalize;
     font-size: 4rem;
 }
@@ -264,17 +267,17 @@ span.icon-x:hover{
   opacity: 1;
   cursor:pointer;
 }
-#productPage ul{padding-left: 1.2em;}
-#productPage li{padding-bottom: .5em;}
+#activeProjectModal ul{padding-left: 1.2em;}
+#activeProjectModal li{padding-bottom: .5em;}
 
-#productPage .col-0.col-sm-4.col-md-6.project-preview{
+#activeProjectModal .col-0.col-sm-4.col-md-6.project-preview{
     min-height: 75vh;
 }
-#productPage .project-copy{
+#activeProjectModal .project-copy{
   align-self: center;
 }
 
-#productPage .preview-image {
+#activeProjectModal .preview-image {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -285,7 +288,7 @@ span.icon-x:hover{
     background-image: url(../images/iphone-frame.png);
 }
 
-#productPage .content-image {
+#activeProjectModal .content-image {
     height: 91%;
     background-size: contain;
     background-position: center;
