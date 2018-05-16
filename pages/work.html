@@ -194,10 +194,10 @@
     <div aria-hidden="true" aria-labelledby="myLargeModalLabel" id="activeProjectModal" class="modal fade bd-example-modal-xl" data-backdrop="false" role="dialog" tabindex="-1">
       <div class="modal-dialog modal-xl col-12">
         <div class="modal-content">
-          <div class="container-fluid header">
+          <!-- <div class="container-fluid header">
             <i class="far fa-times-circle close" data-dismiss="modal" aria-label="Close"></i>
             <div class="logo"></div>
-          </div>
+          </div> -->
           <div class="container-fluid content">
             <div class="container">
               <div class="row">
@@ -221,8 +221,8 @@
           <div class="container-fluid stats">
             <div class="container">
               <div class="row">
-                <div class="col-12 col-sm-12 col-md-4 scope-copy">
-                  <div class="project-subtitle scope"><h2>Scope:</h2></div>
+                <div class="col-12 col-sm-12 col-md-5 scope-copy">
+                  <div class="project-subtitle scope"><h2>Scope</h2></div>
                   <div class="project-bullets">
                     <ul>
                       <li class="bullet goal"><b>Goal:</b><span>XXX</span></li>
@@ -234,8 +234,8 @@
                     </ul>
                   </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-8 responsibilities-copy">
-                    <div class="project-subtitle responsibilities-title"><h2>Responsibilities:</h2></div>
+                <div class="col-12 col-sm-12 col-md-7 responsibilities-copy">
+                    <div class="project-subtitle responsibilities-title"><h2>Responsibilities</h2></div>
                     <div class="responsibilities">
                       <span><p>
                         XXX
@@ -252,18 +252,34 @@
             <div class="container">
               <div class="row">
                 <div class="col-12 col-sm-8 col-md-6 project-results graphs">
-                  <div class="project-subtitle results"><h2>Results:</h2></div>
-
-                    <canvas height="200" id="engagementData" width="600"></canvas>
-                    <h5 class="subtitle">Engagement</h5>
-
-                  [pipe in graphs - engagement, survey responses, order $]
+                  <div class="project-subtitle results"><h2>Results</h2></div>
+                  <p class="lead" style="background-color:goldenrod">[pipe in graphs - engagement, survey responses, order $]</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <canvas height="200" id="moduleData" width="600"></canvas>
+                  <h5 class="subtitle">Modules / Minutes</h5>
+                  <ul>
+                    <li>facts from the graph
+                    <li>facts from the graph
+                    <li>facts from the graph
+                    <li>facts from the graph
+                  </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                  <canvas height="200" id="engagementData" width="600"></canvas>
+                  <h5 class="subtitle">engagements / conversion</h5>
+                  <ul>
+                    <li>facts from the graph
+                    <li>facts from the graph
+                    <li>facts from the graph
+                    <li>facts from the graph
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-
-
           <!-- <div class="container-fluid footer d-none">
             <div class="container">
               <h2>more work</h2>
