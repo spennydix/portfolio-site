@@ -204,6 +204,9 @@ background-image: url('../images/projects-image.jpg');
   border: 1px solid rgba(0,0,0,.325);
 }
 .card:hover * {cursor:pointer}
+.card:hover > div {
+    background-size: 70% !important;
+}
 
 .card.active{
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
