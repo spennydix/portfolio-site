@@ -196,21 +196,7 @@ window.chart = new Chart(document.getElementById("engagementData"), {
 		},
 		// plugins: [shadowed]
 });
-window.chart = new Chart(document.getElementById("moduleData"), {
-		type: 'line',
-		data: {
-			labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-			datasets: [
-				{
-					label: "2018",
-					data: [10,8,6,5,12,8,16,17,6,7,6,10],
-					strokeColor: "rgba(220,220,220,1)",
-					pointColor: "rgba(220,220,220,1)",
-				}
-			]
-		},
-		// plugins: [shadowed]
-});
+
 //
 // var cards = $(".randomize");
 // for(var i = 0; i < cards.length; i++){

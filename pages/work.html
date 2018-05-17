@@ -378,7 +378,6 @@
       var activeProject = $('#activeProjectModal');
 
       console.log(userChoice);
-      console.log(activeProject);
 
       $(this).addClass('active');
 
@@ -389,7 +388,6 @@
     			 var selectedBrand = userChoice;
            var generic = "generic";
     	     $(data.project).each(function(index, value) {
-
     	         if (value[selectedBrand].name == selectedBrand) {
     	             $('#activeProjectModal .header').css({
     	                 "background-image": "url('" + value[selectedBrand].header + "')",
@@ -433,6 +431,25 @@
     	         } else {
     	             alert('Loading project details failed. Sorry!');
     	         }
+var numberString = value[selectedBrand].moduleMetrics;
+console.log(numberString);
+
+               window.chart = new Chart(document.getElementById("moduleData"), {
+
+                  type: 'line',
+                  data: {
+                    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                    datasets: [
+                      {
+                        label: "2018",
+                        data: [numberString],
+                        strokeColor: "rgba(220,220,220,1)",
+                        pointColor: "rgba(220,220,220,1)",
+                      }
+                    ]
+                  }
+               });
+
     	     });
     	     // needs to be replaced with more sophisticated function that randomly selects 4 values, and saves them to 4 variables.
     	    //  $(data.brandList).each(function(index, value) {
