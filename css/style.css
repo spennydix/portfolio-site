@@ -191,6 +191,7 @@ background-image: url('../images/projects-image.jpg');
   min-height:20vw;
   }
   .modal-dialog{padding:0px; margin:0px;}
+  .modal-dialog h2 {font-size:1.6rem; margin-bottom: 1em;}
 }
 #activeProjectModal .w-item div {
     background-size: 50%;
