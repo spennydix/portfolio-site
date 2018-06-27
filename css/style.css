@@ -169,7 +169,7 @@ background-image: url('../images/projects-image.jpg');
 
 .w-item div {
     width: 100%;
-    min-height: 15vw;
+    min-height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -186,7 +186,12 @@ background-image: url('../images/projects-image.jpg');
     transition-duration: 50ms;
     cursor:pointer;
 }
-
+@media screen and (orientation:portrait){
+  .e-item div, .p-item div{
+  min-height:20vw;
+  }
+  .modal-dialog{padding:0px; margin:0px;}
+}
 #activeProjectModal .w-item div {
     background-size: 50%;
 }
