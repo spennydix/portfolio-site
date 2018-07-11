@@ -3,6 +3,7 @@
 
 		"breville": {
 			"name": "breville",
+			"goal": "Brand awareness, product seeding",
 			"type": "brand/product e-learning",
 			"length": "10",
 			"writer": "Matthew Nanes",
@@ -18,6 +19,7 @@
 		},
 		"coldSteel": {
 			"name": "coldSteel",
+			"goal": "Brand awareness, product seeding",
 			"type": "brand/product e-learning",
 			"length": "6",
 			"writer": "Seth Merrill",
@@ -33,6 +35,7 @@
 		},
 		"dakine": {
 			"name": "dakine",
+			"goal": "Brand awareness, product seeding",
 			"type": "product e-learning",
 			"writer": "Seth Merrill",
 			"length": "5",
@@ -48,6 +51,7 @@
 		},
 		"goalZero": {
 			"name": "goalZero",
+			"goal": "Brand awareness, product seeding",
 			"type": "brand/product e-learning",
 			"length": "",
 			"writer": "Jenna Anderson",
@@ -79,20 +83,22 @@
 		},
 		"hills": {
 			"name": "hills",
+			"goal": "Category education",
 			"type": "product e-learning",
 			"length": "65",
 			"writer": "Alex Nygaard",
-			"description": "XXX",
+			"description": "Hill's started as a three minute, one-product module and grew into one of ExpertVoice's most valued brand partnerships. They LOVE the content we created for them. We made standard content, micro content, video content, live video content, published surveys, and redesigned the E-Commerce experience for their unique content incentives.",
 			"logo": "XXX",
 			"header": "XXX",
 			"preview": "../images/clients/hills/hills-preview-image.jpg",
 			"budget": "609,148.09",
-			"scope": "",
+			"scope": "45 modules",
 			"stakeholder": "Christina Savignano, Education Team Leader",
 			"liveLink": "XXX"
 		},
 		"hydroflask": {
 			"name": "hydroflask",
+			"goal": "Brand awareness, product seeding",
 			"type": "Tech/Products e-learning",
 			"length": "6",
 			"writer": "Seth Merrill, Jenn Olsen",
@@ -107,6 +113,7 @@
 		},
 		"identilock": {
 			"name": "identilock",
+			"goal": "Brand awareness, product seeding",
 			"type": "brand/product e-learning",
 			"length": "7",
 			"writer": "Seth Merrill",
@@ -122,6 +129,7 @@
 		},
 		"jackWolfskin": {
 			"name": "jackWolfskin",
+			"goal": "Brand awareness, product seeding",
 			"type": "brand/product e-learning",
 			"length": "3",
 			"writer": "Matthew Nanes",
@@ -137,6 +145,7 @@
 		},
 		"kammok": {
 			"name": "kammok",
+			"goal": "Brand awareness, product seeding",
 			"type": "brand/product e-learning",
 			"length": "5",
 			"writer": "Jenna Anderson",
@@ -152,6 +161,7 @@
 		},
 		"lander": {
 			"name": "lander",
+			"goal": "Brand awareness, product seeding",
 			"type": "product e-learning",
 			"length": "10",
 			"writer": "Kaylee Hahn",
@@ -168,6 +178,7 @@
 		},
 		"MDT": {
 			"name": "MDT",
+			"goal": "Brand awareness, product seeding",
 			"type": "brand/product e-learning",
 			"length": "5",
 			"writer": "Matthew Nanes",
@@ -200,14 +211,15 @@
 		"oakley": {
 			"name": "oakley",
 			"type": "brand/product e-learning",
-			"length": "45",
+			"goal": "Brand awareness, Product education",
+			"length": "75",
 			"writer": "Jenna Anderson, Sam Flickinger",
-			"description": "XXX",
+			"description": "Before they cancelled they were ExpertVoice's highest profile, and higest paying client. Sadly the did cancel their contract due to the brand being rebased and more wholly absorbed by their parent, The Luxottica Group.",
 			"logo": "../images/clients/oakley/oakley-logo.png",
 			"header": "../images/clients/oakley/oakley-header.jpg",
 			"preview": "../images/clients/oakley/oakley-preview-image.jpg",
 			"budget": "",
-			"scope": "",
+			"scope": "15 modules",
 			"stakeholder": "Mya Maury, Global Product Training and Development Manager",
 			"liveLink": "XXX"
 		},
@@ -218,17 +230,19 @@
 			"writer": "Jenna Anderson",
 			"description": "Sawyer’s new Select Filters and Purifiers use a proprietary foam adsorption technology that is changing the game in water filtration.We created a new piece of micro-content showcasing their newest product line.",
 			"logo": "../images/clients/sawyer/sawyer-logo.png",
+			"goal": "Brand awareness, product seeding",
 			"header": "",
 			"preview": "../images/clients/sawyer/sawyer-preview-image.jpg",
 			"video": "../images/clients/sawyer/sawyer-recording.mp4",
 			"budget": "",
-			"scope": "",
+			"scope": "3 modules",
 			"stakeholder": "",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13848#page/1"
 
 		},
 		"smith": {
 			"name": "smith",
+			"goal": "Brand awareness, product seeding",
 			"type": "brand/product/tech e-learning",
 			"length": "15",
 			"writer": "Sam Flickinger",
@@ -237,7 +251,7 @@
 			"header": "",
 			"preview": "../images/clients/smith/smith-preview-image.jpg",
 			"budget": "",
-			"scope": "",
+			"scope": "3 modules",
 			"stakeholder": "",
 			"liveLink": ""
 
@@ -245,6 +259,7 @@
 		"sportDog": {
 			"name": "sportDog",
 			"type": "brand/product e-learning",
+			"goal": "Brand awareness, product seeding",
 			"length": "20",
 			"writer": "Jenna Anderson & Coy Whittier",
 			"description": "SportDOG has undergone a much-needed overhaul with the goal of changing people’s minds about training collars. We spoke with Josh Miller, a long-time SportDOG employee, professional dog trainer, and a man who is not afraid to open up about his emotional journey with his own dog (Easton) that led him to be so passionate about what he does.You will also find:<ul><li>Comprehensive product overview of Training, Tracking and Containment products in a sleek, new article-style design</li><li>Quotes from our interview with Josh Miller</li><li>A look at the new TEK 2.0 GPS-tracking system</li></ul>",
@@ -252,13 +267,14 @@
 			"header": "",
 			"preview": "../images/clients/sportDog/sportDog-preview-image.jpg",
 			"budget": "",
-			"scope": "",
+			"scope": "4 modules",
 			"stakeholder": "Britney Starr, Marketing Specialist",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13691#page/1"
 
 		},
 		"toms": {
 			"name": "toms",
+			"goal": "Brand awareness, product seeding",
 			"type": "brand/product e-learning",
 			"length": "25",
 			"writer": "Alex Nygaard",
@@ -274,6 +290,7 @@
 		},
 		"timbuk2": {
 			"name": "timbuk2",
+			"goal": "Brand awareness, product seeding",
 			"type": "brand/product e-learning",
 			"length": "10",
 			"writer": "Alex Nygaard",
@@ -289,6 +306,7 @@
 		},
 		"voodoo": {
 			"name": "voodoo",
+			"goal": "Brand awareness, product seeding",
 			"type": "brand/product e-learning",
 			"length": "20",
 			"writer": "Alex Nygaard",
@@ -304,6 +322,7 @@
 		},
 		"zeal": {
 			"name": "zeal",
+			"goal": "Brand awareness, product seeding",
 			"type": "product/tech e-learning",
 			"length": "7",
 			"writer": "Seth Merrill",
@@ -322,7 +341,7 @@
 			"type": "brand/product",
 			"length": "5",
 			"description": "Full write-up coming soon.",
-			"responsibilities": "I co-directed this brand's budget for retail training / digital influencer e-learning. I worked with an instructional designer to create a website, or suite of websites to educate a closed audience of expert influencers. I was directly in charge of designing site layouts, user experiences and interactions. Sites were created using a mix of supplied and custom created assets, build by me with HTML + CSS + Javascript.",
+			"responsibilities": "I co-directed this brand's budget for retail training / digital influencer e-learning. I worked with an instructional designer to create a website, or suite of websites to educate a private audience of expert influencers. I was directly in charge of designing site layouts, user experiences and interactions. Sites were created using a mix of supplied and custom created assets, built by me with HTML + CSS + Javascript.",
 			"logo": "",
 			"header": "",
 			"preview": "",
