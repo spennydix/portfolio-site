@@ -12,7 +12,7 @@
 			"header": "https://cdn.experticity.com/contrib/mfg/breville/contrib/images/MODULE-13796-coffee-beans-bg-color.jpg",
 			"preview": "../images/clients/breville/breville-preview-image.jpg",
 			"video": "../images/clients/breville/breville-recording.mp4",
-			"budget": "45,955",
+			"budget": "20,000",
 			"scope": "",
 			"stakeholder": "Clifford Torng, Global Go-to-Market Officer",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13797#page/1"
@@ -27,7 +27,7 @@
 			"logo": "../images/clients/coldSteel/coldSteel-logo.png",
 			"header": "",
 			"preview": "../images/clients/coldSteel/coldSteel-preview-image.jpg",
-			"budget": "73,900",
+			"budget": "13,900",
 			"scope": "1 module",
 			"stakeholder": "Lynn Thompson, President and CEO",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13757#page/1"
@@ -38,13 +38,13 @@
 			"goal": "Brand awareness, product seeding",
 			"type": "product e-learning",
 			"writer": "Seth Merrill",
-			"length": "5",
+			"length": "10",
 			"description": "With its home base in Hood River, Oregon, Dakine has access to snowy slopes (and the athletes that ride them) nearly year round. This gives its designers a constant stream of product testers to tap for inspiration and feedback. What does that mean for the customer? Products that aren’t created in a lab, but on the slopes.We talked to two Dakine designers to get their insights and stories behind this season’s snow bibs and backpacks.",
 			"logo": "../images/clients/dakine/dakine-logo.png",
 			"header": "",
 			"preview": "../images/clients/dakine/dakine-preview-image.jpg",
-			"budget": "2500 XXX FPO (update only)",
-			"scope": "",
+			"budget": "7,500",
+			"scope": "2 modules",
 			"stakeholder": "Madeline Eastman, Ecommerce Marketing Manager",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13616#page/1"
 
@@ -59,7 +59,7 @@
 			"logo": "../images/clients/goalZero/goalZero-logo.png",
 			"header": "",
 			"preview": "../images/clients/goalZero/goalZero-preview-image.jpg",
-			"budget": "",
+			"budget": "5,600",
 			"scope": "",
 			"stakeholder": "Nick Mathis, Key Account Manager",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13605#page/1"
@@ -91,7 +91,7 @@
 			"logo": "XXX",
 			"header": "XXX",
 			"preview": "../images/clients/hills/hills-preview-image.jpg",
-			"budget": "609,148.09",
+			"budget": "609,148",
 			"scope": "45 modules",
 			"stakeholder": "Christina Savignano, Education Team Leader",
 			"liveLink": "XXX"
@@ -121,8 +121,8 @@
 			"logo": "../images/clients/identilock/identilock-logo.png",
 			"header": "",
 			"preview": "../images/clients/identilock/identilock-preview-image.jpg",
-			"budget": "",
-			"scope": "",
+			"budget": "15,900",
+			"scope": "2 modules",
 			"stakeholder": "Omer Kiyani, Founder and CEO",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13958#page/1"
 
@@ -137,7 +137,7 @@
 			"logo": "../images/clients/jackWolfskin/jackWolfskin-logo.png",
 			"header": "",
 			"preview": "../images/clients/jackWolfskin/jackWolfskin-preview-image.jpg",
-			"budget": "21,500",
+			"budget": "26,500",
 			"scope": "",
 			"stakeholder": "",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13793#page/1"
@@ -153,7 +153,7 @@
 			"logo": "../images/clients/kammok/kammok-logo.png",
 			"header": "",
 			"preview": "../images/clients/kammok/kammok-preview-image.jpg",
-			"budget": "25,700",
+			"budget": "34,318",
 			"scope": "",
 			"stakeholder": "",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13443#page/1"
@@ -170,7 +170,7 @@
 			"header": "https://cdn.experticity.com/contrib/mfg/lander/contrib/images/MODULE-13704-cairn-breaker-2.jpg",
 			"preview": "../images/clients/lander/lander-preview-image.jpg",
 			"video": "../images/clients/lander/lander-recording.mp4",
-			"budget": "17,364",
+			"budget": "14,700",
 			"scope": "2 modules",
 			"stakeholder": "Evan Miller, Channel Marketing Manager",
 			"moduleMetrics": "1,0.75,1,0.5,0,0,1,.25,1,1,0,0",
@@ -186,7 +186,7 @@
 			"logo": "../images/clients/MDT/MDT-logo.png",
 			"header": "../images/clients/MDT/MDT-header.jpg",
 			"preview": "../images/clients/MDT/MDT-preview-image.jpg",
-			"budget": "11,800",
+			"budget": "7,500",
 			"scope": "",
 			"quote": "",
 			"stakeholder": "Bob Fugger, Marketing Driector",
@@ -201,7 +201,7 @@
 			"logo": "../images/clients/nightforce/nightforce-logo.png",
 			"header": "../images/clients/nightforce/nightforce-header.jpg",
 			"preview": "../images/clients/nightforce/nightforce-preview-image.jpg",
-			"budget": "27,700",
+			"budget": "29,200",
 			"goal": "Brand awareness, product seeding",
 			"scope": "Content Update/Overhaul",
 			"quote": "Overall I really like the design of the site, it's really digestible and above all else, just sexy! Really well done.",
@@ -218,10 +218,10 @@
 			"logo": "../images/clients/oakley/oakley-logo.png",
 			"header": "../images/clients/oakley/oakley-header.jpg",
 			"preview": "../images/clients/oakley/oakley-preview-image.jpg",
-			"budget": "",
+			"budget": "258,800",
 			"scope": "15 modules",
 			"stakeholder": "Mya Maury, Global Product Training and Development Manager",
-			"liveLink": "XXX"
+			"liveLink": "https://www.experticity.com/community/oakley"
 		},
 		"sawyer": {
 			"name": "sawyer",
@@ -234,7 +234,7 @@
 			"header": "",
 			"preview": "../images/clients/sawyer/sawyer-preview-image.jpg",
 			"video": "../images/clients/sawyer/sawyer-recording.mp4",
-			"budget": "",
+			"budget": "31,540",
 			"scope": "3 modules",
 			"stakeholder": "",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13848#page/1"
@@ -250,7 +250,7 @@
 			"logo": "../images/clients/smith/smith-logo.png",
 			"header": "",
 			"preview": "../images/clients/smith/smith-preview-image.jpg",
-			"budget": "",
+			"budget": "118,035",
 			"scope": "3 modules",
 			"stakeholder": "",
 			"liveLink": ""
@@ -266,7 +266,7 @@
 			"logo": "../images/clients/sportDog/sportDog-logo.png",
 			"header": "",
 			"preview": "../images/clients/sportDog/sportDog-preview-image.jpg",
-			"budget": "",
+			"budget": "48,700",
 			"scope": "4 modules",
 			"stakeholder": "Britney Starr, Marketing Specialist",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13691#page/1"
@@ -282,7 +282,7 @@
 			"logo": "../images/clients/toms/toms-logo.png",
 			"header": "",
 			"preview": "../images/clients/toms/toms-preview-image.jpg",
-			"budget": "12,000 (video) + XXX build +3750 from latest update FPO XXX",
+			"budget": "130,736",
 			"scope": "5 modules",
 			"stakeholder": "Chad Lavachek, Retail Marketing Manage",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13866#page/1"
@@ -298,7 +298,7 @@
 			"logo": "../images/clients/timbuk2/timbuk2-logo.png",
 			"header": "",
 			"preview": "../images/clients/timbuk2/timbuk2-preview-image.jpg",
-			"budget": "",
+			"budget": "12,250",
 			"scope": "",
 			"stakeholder": "",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13970#page/1"
@@ -314,7 +314,7 @@
 			"logo": "../images/clients/voodoo/voodoo-logo.png",
 			"header": "",
 			"preview": "../images/clients/voodoo/voodoo-preview-image.jpg",
-			"budget": "79,200",
+			"budget": "36,200",
 			"scope": "4 modules",
 			"stakeholder": "Scott Webb, President and CEO",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13500#page/1"
@@ -324,14 +324,14 @@
 			"name": "zeal",
 			"goal": "Brand awareness, product seeding",
 			"type": "product/tech e-learning",
-			"length": "7",
+			"length": "8",
 			"writer": "Seth Merrill",
 			"description": "In this overhaul we set Zeal Optics up for a more focused, seasonally-relevant approach. For this coming winter season, members will be reminded of what Zeal Optics stands for, as well as learn about the latest goggles and goggle technologies.",
 			"logo": "../images/clients/zeal/zeal-logo.png",
 			"header": "",
 			"preview": "../images/clients/zeal/zeal-preview-image.jpg",
-			"budget": "",
-			"scope": "",
+			"budget": "28,900",
+			"scope": "2 modules",
 			"stakeholder": "Mike Lewis, Director of Brand Activation & Digital Strategy",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=14022#page/1"
 
