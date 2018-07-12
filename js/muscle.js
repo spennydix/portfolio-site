@@ -86,7 +86,7 @@ Chart.plugins.register({
 window.chart = new Chart(document.getElementById("technicalAbility"), {
     type: "radar",
     data: {
-        labels: ["JS", "HTML/CSS", "Sketch", "Adobe CC", "CMS", "PHP"],
+        labels: ["JS", "HTML/CSS", "Sketch", "Adobe CC", "CMS", "Angular"],
         datasets: [{
             label: "Technical Ability",
             data: [65, 90, 70, 85, 75, 20],
