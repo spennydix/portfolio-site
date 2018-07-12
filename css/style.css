@@ -163,6 +163,12 @@ background-image: url('../images/projects-image.jpg');
   background-image: url("../images/clients/nightforce/nightforce-logo.png");
   background-color:#000;
 }
+.fpo{
+  background-image: url("../images/fpo.jpg");
+  background-color: #5a5a5a;
+  opacity: 0.35;
+  cursor:wait !important;
+}
 
 
 /* XXX card-item-logos XXX */
