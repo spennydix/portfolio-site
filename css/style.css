@@ -369,3 +369,18 @@ i.far.fa-times-circle.close {
 .modal {
     position: relative;
 }
+.btn-round {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    font-size: 2em;
+    padding: 0px;
+    line-height: 0px;
+    opacity:0.4;
+    transition-duration: 500ms
+}
+.btn-round:hover{
+  opacity: 1;
+  color: red;
+  transition-duration: 500ms
+}
