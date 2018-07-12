@@ -170,6 +170,19 @@ background-image: url('../images/projects-image.jpg');
   cursor:wait !important;
 }
 
+.profile-picture{
+  background-image: url("../images/profile-pic.jpg");
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position:center;
+  height: 100%;
+  display: flex;
+}
+@media screen and (orientaion:portrait){
+    .profile-picture.p-4 {
+      padding-bottom: 100% !important;
+  }
+}
 
 /* XXX card-item-logos XXX */
 
