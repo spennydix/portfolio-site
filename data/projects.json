@@ -105,10 +105,11 @@
 			"description": "I inherited this project after 2 sites had already been built, we had missed the mark. I was in charge of rebuilding both sites and fixing the client relationship. What I created was more in line with what the client wanted originally and the only edits we had to make were adding 8413651864 icons. A big brand for ExpertVoice, not much contract value, because the bulk of our revenue was made in order commission.",
 			"logo": "../images/clients/hydroflask/hydroflask-logo.png",
 			"header": "",
-			"preview": "",
+			"preview": "../images/clients/hydroflask/hydroflask-preview-image.jpg",
 			"budget": "4,500",
 			"responsibilities":"generic",
 			"stakeholder": "Nazera Carlson, Retail Marketing Specialist",
+			"scope":"2 modules",
 			"liveLink": ""
 		},
 		"identilock": {

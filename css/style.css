@@ -212,6 +212,7 @@ background-image: url('../images/projects-image.jpg');
   }
   .modal-dialog{padding:0px; margin:0px;}
   .modal-dialog h2 {font-size:1.6rem; margin-bottom: 1em;}
+  #activeProjectModal h1{font-size: 3rem;}
 }
 #activeProjectModal .w-item div {
     background-size: 50%;
