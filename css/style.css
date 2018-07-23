@@ -210,6 +210,17 @@ background-image: url('../images/projects-image.jpg');
   .e-item div, .p-item div{
   min-height:20vw;
   }
+  h1.display-4{
+    font-size: 3rem;
+  }
+  .profile-picture.p-4 {
+    padding-bottom: 100% !important;
+  }
+  .container-fluid.about-page-content{
+    padding-top:1em;
+  }
+
+  .docs{margin-bottom: 1.5em;}
   .modal-dialog{padding:0px; margin:0px;}
   .modal-dialog h2 {font-size:1.6rem; margin-bottom: 1em;}
   #activeProjectModal h1{font-size: 3rem;}

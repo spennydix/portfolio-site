@@ -86,10 +86,10 @@ Chart.plugins.register({
 window.chart = new Chart(document.getElementById("technicalAbility"), {
     type: "radar",
     data: {
-        labels: ["JS", "HTML/CSS", "Sketch", "Adobe CC", "CMS", "Angular"],
+        labels: ["JS", "HTML/SCSS", "Design Thinking", "Adobe CC", "CMS", "Angular"],
         datasets: [{
             label: "Technical Ability",
-            data: [65, 90, 70, 85, 75, 20],
+            data: [65, 90, 90, 85, 75, 20],
             fill: true,
             backgroundColor: gradientRed,
             borderColor: 'transparent',
@@ -121,7 +121,7 @@ window.chart = new Chart(document.getElementById("interpersonalSkills"), {
         labels: ["Communication", "Self Confidence", "Teamwork", "Problem Solving", "Aptitude", "Leadership"],
         datasets: [{
             label: "Interpersonal Skills",
-            data: [90, 79, 80, 95, 98, 90],
+            data: [90, 79, 90, 95, 98, 70],
             fill: true,
             backgroundColor: gradientBlue,
             borderColor: 'transparent',
@@ -149,10 +149,10 @@ window.chart = new Chart(document.getElementById("interpersonalSkills"), {
 window.chart = new Chart(document.getElementById("physicalProwess"), {
     type: "radar",
     data: {
-        labels: ["Height", "Weight", "Ping Pong", "Joint Strength", "Soccer", "Sleep Debt"],
+        labels: ["Height", "Muscle Mass", "Ping Pong", "Joint Strength", "Soccer", "Sleep Debt"],
         datasets: [{
             label: "Physical Prowess",
-            data: [70, 65, 90, 40, 75, 82],
+            data: [70, 45, 90, 40, 75, 82],
             fill: true,
             backgroundColor: gradientGreen,
             borderColor: 'transparent',
