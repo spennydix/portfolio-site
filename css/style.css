@@ -168,7 +168,7 @@ background-image: url('../images/projects-image.jpg');
   background-image: url("../images/fpo.jpg");
   background-color: #5a5a5a;
   opacity: 0.35;
-  cursor:wait !important;
+  cursor:not-allowed !important;
 }
 
 .profile-picture{
@@ -193,7 +193,7 @@ background-image: url('../images/projects-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    transition-duration: 50ms;
+    transition-duration: 500ms;
     cursor:pointer;
 }
 
@@ -203,8 +203,12 @@ background-image: url('../images/projects-image.jpg');
     background-repeat: no-repeat;
     background-size: 65%;
     background-position: center center;
-    transition-duration: 50ms;
+    transition-duration: 500ms;
     cursor:pointer;
+}
+.e-item:hover div, .p-item:hover div, .w-item:hover div{
+  cursor:pointer;
+  z-index:999;
 }
 @media screen and (orientation:portrait){
   .e-item div, .p-item div{
@@ -252,11 +256,13 @@ background-image: url('../images/projects-image.jpg');
     line-height: 1em;
     font-size: 1em;
     float: right;
+    transition-duration: 300ms
+
 }
 .card:hover > div:before {
     opacity: 0.85;
+    transition-duration: 500ms
 }
-.card:hover * {cursor:pointer}
 .p-item.card:hover > div {
     background-size: 70% !important;
 }

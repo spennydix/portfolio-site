@@ -206,7 +206,7 @@
                   <div class="preview-image"></div>
                   <div class="content-image" style="background-image: url('')"></div>
                   <div class="video-walkthrough h-100">
-                    <video autoplay controls loop preload="none" class="embed-responsive-item" >
+                    <video autoplay loop preload="none" class="embed-responsive-item" >
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -404,7 +404,7 @@
     	            //  });
 
                   if (value[selectedBrand].video != null){
-                     $('.video-walkthrough').html('<video autoplay controls loop preload="none" class="embed-responsive-item">'+ '<source src=" '+ value[selectedBrand].video + ' '+ ' " type="video/mp4" /> Your browser does not support the video tag.</video> ');
+                     $('.video-walkthrough').html('<video autoplay loop preload="none" class="embed-responsive-item">'+ '<source src=" '+ value[selectedBrand].video + ' '+ ' " type="video/mp4" /> Your browser does not support the video tag.</video> ');
                      $('.video-walkthrough').css("display", "block");
                    } else{
                      $('.video-walkthrough').css("display", "none");
