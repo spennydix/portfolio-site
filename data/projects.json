@@ -49,6 +49,22 @@
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13616#page/1"
 
 		},
+		"europharma": {
+			"name": "europharma",
+			"goal": "Product Launch",
+			"type": "Marketing",
+			"writer": "Taylor Anderson",
+			"length": "20",
+			"description": "Terry Naturally wanted to educate retailers about their complex, science-backed products so they can pass that knowledge on to customers. The new content features:<ul><li>Custom, in-studio video.</li><li>An interview with Naturals legend, Terry Lemerond.</li><li>Interactive features to keep experts engaged throughout the science-based content.</li></ul>",
+			"logo": "../images/clients/dakine/dakine-logo.png",
+			"header": "",
+			"preview": "../images/clients/dakine/dakine-preview-image.jpg",
+			"budget": "7,500",
+			"scope": "4 modules",
+			"stakeholder": "Terry Lemmerond, Founder and CEO",
+			"liveLink": "https://expertvoice.us16.list-manage.com/track/click?u=d1c71f0834f27e618286f705e&id=401379448a&e=76a3716150"
+
+		},
 		"goalZero": {
 			"name": "goalZero",
 			"goal": "Brand awareness, product seeding",
@@ -321,7 +337,6 @@
 			"scope": "4 modules",
 			"stakeholder": "Scott Webb, President and CEO",
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13500#page/1"
-
 		},
 		"zeal": {
 			"name": "zeal",
@@ -339,17 +354,21 @@
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=14022#page/1"
 
 		},
-		"generic": {
-			"name": "generic",
-			"type": "brand/product",
-			"length": "5",
-			"description": "Full write-up coming soon.",
-			"responsibilities": "I co-directed this brand's budget for retail training / digital influencer e-learning. I worked with an instructional designer to create a website, or suite of websites to educate a private audience of expert influencers. I was directly in charge of designing site layouts, user experiences and interactions. Sites were created using a mix of supplied and custom created assets, built by me with HTML + CSS + Javascript.",
-			"logo": "",
+		"campusMarket": {
+			"name": "campusMarket",
+			"type": "Product/Service",
+			"length": "",
+			"description": "This is a joint venture between a few friends and I. It is basically a replacement for craigslist geared specifically towards university students. Users of our site avoid the spam and the privacy concerns, not to mention the archaic UX, that Craigslist is widely known for.",
+			"responsibilities": "I own all user experience aspects of this site. It started as wireframes, moved to high fidelity mocks, where we tested, the I built and styled all the components in angular 6. My cofounders handled the data architecture and the integrations with other sites, as well as security – but the design was all me.",
+			"logo": "../images/clients/campusmarket/campusmarket-logo.png",
 			"header": "",
-			"preview": "",
-			"budget": "TBD",
-			"scope": ""
+			"preview": "../images/clients/campusmarket/campusmarket-preview.jpeg",
+			"budget": "",
+			"scope": "Won first place in the Miller Competition Series @ Brigham Young University, Entrepreneurship & Technology mobile app compentition.",
+			"liveLink": "https://thecampus.market"
+		},
+		"generic":{
+			"responsibilities":"I co-directed this brand's budget for retail training / digital influencer e-learning. I worked with an instructional designer to create a website, or suite of websites to educate a private audience of expert influencers. I was directly in charge of designing site layouts, user experiences and interactions. Sites were created using a mix of supplied and custom created assets, built by me with HTML + CSS + Javascript."
 		}
 	}],
 	"personal": [{

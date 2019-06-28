@@ -89,7 +89,7 @@ window.chart = new Chart(document.getElementById("technicalAbility"), {
         labels: ["JS", "HTML/SCSS", "Design Thinking", "Adobe CC", "CMS", "Angular"],
         datasets: [{
             label: "Technical Ability",
-            data: [65, 90, 90, 85, 75, 45],
+            data: [65, 94, 90, 85, 75, 55],
             fill: true,
             backgroundColor: gradientRed,
             borderColor: 'transparent',
