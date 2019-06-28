@@ -86,10 +86,10 @@ Chart.plugins.register({
 window.chart = new Chart(document.getElementById("technicalAbility"), {
     type: "radar",
     data: {
-        labels: ["JS", "HTML/SCSS", "Design Thinking", "Adobe CC", "CMS", "Angular"],
+        labels: ["HTML/SCSS", "JS", "Angular", "Adobe CC", "CMS", "Design Thinking"],
         datasets: [{
             label: "Technical Ability",
-            data: [65, 94, 90, 85, 75, 55],
+            data: [90, 70, 45, 90, 70, 70],
             fill: true,
             backgroundColor: gradientRed,
             borderColor: 'transparent',
@@ -152,7 +152,7 @@ window.chart = new Chart(document.getElementById("physicalProwess"), {
         labels: ["Height", "Muscle Mass", "Ping Pong", "Joint Strength", "Soccer", "Sleep Debt"],
         datasets: [{
             label: "Physical Prowess",
-            data: [70, 45, 90, 40, 75, 82],
+            data: [70, 55, 90, 40, 75, 82],
             fill: true,
             backgroundColor: gradientGreen,
             borderColor: 'transparent',
