@@ -15,7 +15,7 @@
 			"budget": "20,000",
 			"scope": "3 modules",
 			"stakeholder": "Clifford Torng, Global Go-to-Market Officer",
-			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13797#page/1"
+			"liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13796%26campaignId%3D5688"
 		},
 		"coldSteel": {
 			"name": "coldSteel",
@@ -46,7 +46,7 @@
 			"budget": "7,500",
 			"scope": "2 modules",
 			"stakeholder": "Madeline Eastman, Ecommerce Marketing Manager",
-			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13616#page/1"
+			"liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13616%26campaignId%3D5688"
 
 		},
 		"goalZero": {
@@ -79,7 +79,7 @@
 			"scope": "2 modules",
 			"stakeholder": "Tabitha Luckett, Sales Director",
 			"video": "../images/clients/greenPan/greenPan-recording.mp4",
-			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13275#page/1"
+			"liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13275%26campaignId%3D5688"
 
 		},
 		"hills": {
@@ -96,10 +96,10 @@
 			"scope": "45 modules",
 			"stakeholder": "Christina Savignano, Education Team Leader",
 			"video": "../images/clients/hills/hills-recording.mp4",
-			"liveLink": "https://www.experticity.com/learn?moduleId=14333&courseId=8702&campaignId=4876"
+			"liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D14333%26campaignId%3D5688"
 		},
 		"hydroflask": {
-			"name": "hydroflask",
+			"name": "hydro flask",
 			"goal": "Brand awareness, product seeding",
 			"type": "Tech/Products e-learning",
 			"length": "6",
@@ -112,7 +112,7 @@
 			"responsibilities":"generic",
 			"stakeholder": "Nazera Carlson, Retail Marketing Specialist",
 			"scope":"2 modules",
-			"liveLink": "https://www.experticity.com/learn?moduleId=14194&courseId=8645&campaignId=4805#page/1"
+			"liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D15604%26campaignId%3D5688"
 		},
 		"identilock": {
 			"name": "identilock",
@@ -177,7 +177,7 @@
 			"scope": "2 modules",
 			"stakeholder": "Evan Miller, Channel Marketing Manager",
 			"moduleMetrics": "1,0.75,1,0.5,0,0,1,.25,1,1,0,0",
-			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13704#page/1"
+			"liveLink": "https://www.experticity.com/sign-in?identifier=salesdemo&password=access&signInRedirect=%2Flearn%2Fpreview%3FmoduleId%3D13704%26campaignId%3D5688"
 		},
 		"MDT": {
 			"name": "MDT",
