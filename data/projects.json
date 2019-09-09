@@ -49,22 +49,6 @@
 			"liveLink": "https://www.experticity.com/learn/preview?moduleId=13616#page/1"
 
 		},
-		"europharma": {
-			"name": "europharma",
-			"goal": "Product Launch",
-			"type": "Marketing",
-			"writer": "Taylor Anderson",
-			"length": "20",
-			"description": "Terry Naturally wanted to educate retailers about their complex, science-backed products so they can pass that knowledge on to customers. The new content features:<ul><li>Custom, in-studio video.</li><li>An interview with Naturals legend, Terry Lemerond.</li><li>Interactive features to keep experts engaged throughout the science-based content.</li></ul>",
-			"logo": "../images/clients/dakine/dakine-logo.png",
-			"header": "",
-			"preview": "../images/clients/dakine/dakine-preview-image.jpg",
-			"budget": "7,500",
-			"scope": "4 modules",
-			"stakeholder": "Terry Lemmerond, Founder and CEO",
-			"liveLink": "https://expertvoice.us16.list-manage.com/track/click?u=d1c71f0834f27e618286f705e&id=401379448a&e=76a3716150"
-
-		},
 		"goalZero": {
 			"name": "goalZero",
 			"goal": "Brand awareness, product seeding",
@@ -413,6 +397,7 @@
 		"sportDog": "sportDog",
 		"hills": "hills",
 		"oakley": "oakley",
-		"hydroflask": "hydroflask"
+		"hydroflask": "hydroflask",
+		"campsumarket": "campsumarket"
 	}
 }
